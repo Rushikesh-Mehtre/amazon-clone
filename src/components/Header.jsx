@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import styles from "../styles/Header.module.scss";
 import logo from "../assets/images/amazon.png";
 import SearchIcon from "@mui/icons-material/Search";
-import { ShoppingBasketOutlined } from "@mui/icons-material";
+// import { ShoppingBasketOutlined } from "@mui/icons-material";
 import classNames from "classnames";
 import { Link, useNavigate } from "react-router-dom";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
-import { useStateValue } from "../context/StateProvider";
+// import { useStateValue } from "../context/StateProvider";
 import LocationModal from "./LocationModal";
 import { BsCart3 } from "react-icons/bs";
 

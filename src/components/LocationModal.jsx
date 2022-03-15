@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ReactDOM from "react-dom";
+// import ReactDOM from "react-dom";
 import Modal from "react-modal";
 import styles from "../styles/LocationModal.module.scss";
 import { MdReportGmailerrorred } from "react-icons/md";

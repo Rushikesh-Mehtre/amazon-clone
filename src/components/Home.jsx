@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../styles/Home.module.scss";
-import homeImg from "../assets/images/home-image-1.jpg";
+// import homeImg from "../assets/images/home-image-1.jpg";
 import Product from "./Product";
 import MainOne from "./MainOne";
 import MainTwo from "./MainTwo";
