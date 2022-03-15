@@ -1,0 +1,23 @@
+.checkOutPage {
+  .checkOut {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+    height: max-content;
+
+    .checkOut_Left {
+      .checkOut_Ad {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+      .CheckOutTitle {
+        margin-right: 10px;
+        padding: 10px;
+        border-bottom: 1px solid lightgray;
+      }
+    }
+    .checkOut_Right {
+    }
+  }
+}

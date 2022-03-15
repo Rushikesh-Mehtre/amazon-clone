@@ -1,0 +1,111 @@
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #131921;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+
+  .header_Logo {
+    width: 100px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 18px;
+  }
+  .header_Location {
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-right: 20px;
+    .text {
+      display: flex;
+      flex-direction: column;
+
+      .locationLineOne {
+        color: #ccc;
+        font-size: 12px;
+      }
+      .locationLineTwo {
+        font-size: 15px;
+        font-weight: bold;
+      }
+    }
+  }
+  .header_Search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    border-radius: 24px;
+
+    .selectionOption {
+      height: 38px;
+      width: 50px;
+      border: none;
+      background: #f3f3f3;
+      border-radius: 5px 0px 0px 5px;
+      cursor: pointer;
+    }
+    .header_Search_Input {
+      height: 12px;
+      padding: 13px;
+      border: none;
+      width: 100%;
+    }
+    .header_SearchIcon {
+      padding: 8px;
+      height: 22px !important;
+      background-color: #febd69;
+      border-radius: 0px 5px 5px 0px;
+      cursor: pointer;
+    }
+  }
+  .header_Nav {
+    display: flex;
+    justify-content: space-evenly;
+
+    .header_Option {
+      display: flex;
+      flex-direction: column;
+      margin-left: 10px;
+      margin-right: 10px;
+      color: white;
+
+      .header_Option_Lineone {
+        font-size: 10px;
+      }
+      .header_Option_Linetwo {
+        font-size: 13px;
+        font-weight: bold;
+        color: white;
+        text-decoration: none;
+      }
+    }
+    .header_OptionBasket {
+      margin-left: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .link {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        color: white;
+        font-weight: bold;
+        .cartIcon {
+          font-size: 25px;
+        }
+        .header_BasketCount {
+          margin-left: 10px;
+          margin-right: 10px;
+          position: relative;
+          top: -19px;
+          left: -58px;
+          color: #f08804;
+        }
+      }
+    }
+  }
+}

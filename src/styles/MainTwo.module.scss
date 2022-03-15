@@ -1,0 +1,23 @@
+.mainTwo {
+  background: white;
+  padding: 20px;
+  z-index: 99;
+  .head {
+    margin-bottom: 10px;
+  }
+  .mainContent {
+    margin-bottom: 15px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    .mainContentItem {
+      .title {
+        font-size: 13px;
+      }
+    }
+  }
+  a {
+    text-decoration: none;
+    color: #007185;
+  }
+}

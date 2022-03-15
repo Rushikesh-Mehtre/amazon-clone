@@ -1,0 +1,10 @@
+.locationModal {
+  .modalText {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    .head {
+      background-color: #f1f1f1;
+    }
+  }
+}
