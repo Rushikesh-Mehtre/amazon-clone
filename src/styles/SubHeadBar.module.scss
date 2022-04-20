@@ -1,2 +1,37 @@
 .subHeadBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #232f3e;
+  padding-left: 1rem;
+
+  .left {
+    display: flex;
+    justify-content: space-between;
+    a {
+      font-size: 0.9rem;
+      color: white;
+      border: 1px solid transparent;
+      padding: 5px;
+      font-weight: 600;
+      &:hover {
+        border-color: white;
+      }
+      .hamMenu {
+        margin-right: 5px;
+        font-size: 1rem;
+        position: relative;
+        top: 2px;
+      }
+    }
+  }
+  .right {
+    img {
+      border: 1px solid transparent;
+
+      &:hover {
+        border: 1px solid white;
+      }
+    }
+  }
 }
