@@ -14,13 +14,6 @@ function App() {
         <Route path="/signin" element={<SignInPage />} />
         <Route path="/search/:keyword" element={<SearchResultPage />} />
         <Route path="/health&household" element={<HealthHouseHold />} />
-        {/* <Route index element={<Home />} /> */}
-        {/* <Route path="teams" element={<Teams />}>
-            <Route path=":teamId" element={<Team />} />
-            <Route path="new" element={<NewTeamForm />} />
-            <Route index element={<LeagueStandings />} />
-          </Route> */}
-        {/* </Route> */}
       </Routes>
     </BrowserRouter>
   );

@@ -1,17 +1,138 @@
-.signinPage {
-  .img {
-    width: 100px;
-    object-fit: contain;
-  }
+.signInPage {
+  width: 50%;
+  margin: auto;
   display: flex;
   flex-direction: column;
-  .loginForm {
+  align-items: center;
+  a {
+    color: #0066c0;
+    font-weight: 500;
+  }
+  .top {
+    width: 60%;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    text-align: center;
-    div {
-      display: flex;
-      flex-direction: column;
+    img {
+      width: 100px;
+      object-fit: contain;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+    .loginForm {
+      width: 80%;
+      padding: 25px;
+      border: 1px #ddd solid;
+      border-radius: 4px;
+      .head {
+        font-size: 30px;
+        margin-bottom: 1rem;
+        font-weight: 500;
+      }
+      .inputBox {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0.75rem;
+        label {
+          margin-bottom: 0.2rem;
+          font-weight: 500;
+        }
+        input {
+          height: 28px;
+          border: 1px solid gray;
+          border-radius: 4px;
+          margin-bottom: 0.5rem;
+          padding-left: 5px;
+          outline: none;
+        }
+        p {
+          display: flex;
+          justify-content: space-between;
+          // label {
+          //   margin-bottom: 0.2rem;
+          // }
+        }
+      }
+      button {
+        width: 100%;
+        font-weight: 500;
+        padding: 7px;
+        color: black;
+        box-shadow: 0 1px 0 rgb(255 255 255 / 40%) inset;
+        border-radius: 3px;
+        border-width: 1px;
+        border-style: solid;
+        cursor: pointer;
+        &.signIn {
+          background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
+          // border-color: #a88734 #9c7e31 #846a29;
+          &:hover {
+            border-color: #a88734 #9c7e31 #846a29;
+          }
+        }
+        &.createAccount {
+          background: #e7e9ec;
+          border-color: #adb1b8 #a2a6ac #8d9096;
+        }
+      }
+      .newAccount {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin-top: 3rem;
+        p {
+          color: #767676;
+          font-size: 0.8rem;
+        }
+      }
+      .checkBox {
+        margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        input {
+          position: relative;
+          top: 1px;
+          cursor: pointer;
+        }
+        label {
+          font-weight: bold;
+        }
+        .downIcon {
+          color: #797e86;
+          position: relative;
+          top: 2px;
+        }
+      }
+    }
+  }
+  .bottom {
+    padding: 2rem 0;
+    width: 50%;
+
+    p {
+      &.links {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+        font-size: 0.8rem;
+        a {
+          border-bottom: 1px solid transparent;
+
+          // border-bottom: 1px solid transparent;
+          &:hover {
+            border-bottom: 1px solid #b96907;
+            color: #b96907;
+          }
+        }
+      }
+      &.copyRight {
+        text-align: center;
+        color: #767676;
+        font-size: 0.8rem;
+      }
     }
   }
 }
