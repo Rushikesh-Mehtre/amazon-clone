@@ -4,9 +4,9 @@ import amazon1 from "../../assets/images/amazon1.png";
 import { AiFillCaretDown } from "react-icons/ai";
 
 const SignInPage = () => {
+  console.log("on sign in page");
   return (
     <div className={styles.signinPage}>
-     
       <img src={amazon1} alt="" className={styles.img} />
       <div className={styles.loginForm}>
         <h1>Sign In</h1>
