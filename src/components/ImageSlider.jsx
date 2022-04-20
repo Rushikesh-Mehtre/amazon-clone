@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import styles from "../styles/ImageSlider.module.scss";
 import homeImg1 from "../assets/images/home-image-1.jpg";
+import homeImg10 from "../assets/images/home-image-10.jpg";
 import homeImg2 from "../assets/images/home-image-2.jpg";
 import homeImg3 from "../assets/images/home-image-3.jpg";
 import homeImg4 from "../assets/images/home-image-4.jpg";
@@ -26,6 +27,9 @@ const ImageSlider = () => {
       <Slider {...settings}>
         <div className={styles.imgContainer}>
           <img src={homeImg1} alt="" />
+        </div>
+        <div className={styles.imgContainer}>
+          <img src={homeImg10} alt="" />
         </div>
         <div className={styles.imgContainer}>
           <img src={homeImg2} alt="" />

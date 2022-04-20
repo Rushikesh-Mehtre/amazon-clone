@@ -4,6 +4,7 @@ import HomePage from "./pages/HomePage/HomePage";
 import CheckOutPage from "./pages/CheckOutPage/CheckOutPage";
 import SignInPage from "./pages/SignIn/SignInPage";
 import SearchResultPage from "./pages/SearchResult/SearchResultPage";
+import HealthHouseHold from "./pages/HealthHouseholdPage/HealthHouseHold";
 function App() {
   return (
     <BrowserRouter>
@@ -12,6 +13,7 @@ function App() {
         <Route path="/checkout" element={<CheckOutPage />} />
         <Route path="/signin" element={<SignInPage />} />
         <Route path="/search/:keyword" element={<SearchResultPage />} />
+        <Route path="/health&household" element={<HealthHouseHold />} />
         {/* <Route index element={<Home />} /> */}
         {/* <Route path="teams" element={<Teams />}>
             <Route path=":teamId" element={<Team />} />

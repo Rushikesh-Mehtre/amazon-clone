@@ -1,0 +1,17 @@
+.signinPage {
+  .img {
+    width: 100px;
+    object-fit: contain;
+  }
+  display: flex;
+  flex-direction: column;
+  .loginForm {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    div {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
