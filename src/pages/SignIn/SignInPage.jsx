@@ -46,6 +46,17 @@ const SignInPage = () => {
             <button onClick={signUpHandler}>Create your Amazon account </button>
           </div>
         </form>
+        </div>
+      </div>
+      <div className={styles.bottom}>
+        <p className={styles.links}>
+          <Link to="#">Conditions of use</Link>
+          <Link to="#">Privacy Notice</Link>
+          <Link to="#">Help</Link>
+        </p>
+        <p className={styles.copyRight}>
+          © 1996-2022, Amazon.com, Inc. or its affiliates
+        </p>
       </div>
     </div>
   );
