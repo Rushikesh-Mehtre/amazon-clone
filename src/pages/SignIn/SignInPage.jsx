@@ -2,11 +2,15 @@ import React from "react";
 import styles from "./SignInPage.module.scss";
 import amazon1 from "../../assets/images/amazon1.png";
 import { AiFillCaretDown } from "react-icons/ai";
+import { useNavigate } from "react-router-dom";
 
 const SignInPage = () => {
+  const navigate = useNavigate();
+  const signUpHandler = () => {
+    navigate("/signup");
+  };
   return (
     <div className={styles.signinPage}>
-     
       <img src={amazon1} alt="" className={styles.img} />
       <div className={styles.loginForm}>
         <h1>Sign In</h1>
@@ -39,7 +43,7 @@ const SignInPage = () => {
           </div>
           <div>
             <p>New to Amazon?</p>
-            <button>Create your Amazon account </button>
+            <button onClick={signUpHandler}>Create your Amazon account </button>
           </div>
         </form>
       </div>
