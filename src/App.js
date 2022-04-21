@@ -5,6 +5,7 @@ import CheckOutPage from "./pages/CheckOutPage/CheckOutPage";
 import SignInPage from "./pages/SignIn/SignInPage";
 import SearchResultPage from "./pages/SearchResult/SearchResultPage";
 import HealthHouseHold from "./pages/HealthHouseholdPage/HealthHouseHold";
+import SignUp from "./pages/SignUp/SignUp";
 function App() {
   return (
     <BrowserRouter>
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/checkout" element={<CheckOutPage />} />
         <Route path="/signin" element={<SignInPage />} />
+        <Route path="/signup" element={<SignUp />} />
         <Route path="/search/:keyword" element={<SearchResultPage />} />
         <Route path="/health&household" element={<HealthHouseHold />} />
       </Routes>
