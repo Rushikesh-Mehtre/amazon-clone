@@ -1,5 +1,5 @@
 .signInPage {
-  width: 50%;
+  width: 40%;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -28,13 +28,13 @@
       .head {
         font-size: 30px;
         margin-bottom: 1rem;
-        font-weight: 500;
       }
       .inputBox {
         display: flex;
         flex-direction: column;
         margin-bottom: 0.75rem;
         label {
+          font-size: 0.9rem;
           margin-bottom: 0.2rem;
           font-weight: 500;
         }
@@ -45,13 +45,21 @@
           margin-bottom: 0.5rem;
           padding-left: 5px;
           outline: none;
+          border: 1px solid #a6a6a6;
+          border-top-color: #949494;
+          box-shadow: 0 1px 0 rgb(255 255 255 / 50%),
+            0 1px 0 rgb(0 0 0 / 7%) inset;
+          &:focus {
+            border-color: #e77600;
+            box-shadow: 0 0 3px 2px rgb(228 121 17 / 50%);
+          }
         }
         p {
           display: flex;
           justify-content: space-between;
-          // label {
-          //   margin-bottom: 0.2rem;
-          // }
+          a {
+            font-size: 0.9rem;
+          }
         }
       }
       button {
@@ -65,15 +73,31 @@
         border-style: solid;
         cursor: pointer;
         &.signIn {
-          background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
-          // border-color: #a88734 #9c7e31 #846a29;
+          background: #f0c14b;
+          border-color: #a88734 #9c7e31 #846a29;
+          color: #111;
+
           &:hover {
+            background: #e5b53b;
             border-color: #a88734 #9c7e31 #846a29;
+          }
+          &:focus {
+            border-color: #e77600;
+            box-shadow: 0 0 3px 2px rgb(228 121 17 / 50%);
           }
         }
         &.createAccount {
           background: #e7e9ec;
+
           border-color: #adb1b8 #a2a6ac #8d9096;
+          &:hover {
+            background: #d6dadf;
+            border-color: #a2a6ac #979aa1 #82858a;
+          }
+          &:focus {
+            border-color: #e77600;
+            box-shadow: 0 0 3px 2px rgb(228 121 17 / 50%);
+          }
         }
       }
       .newAccount {
@@ -98,12 +122,16 @@
           cursor: pointer;
         }
         label {
-          font-weight: bold;
+          // font-weight: bold;
+          font-size: 0.9rem;
         }
         .downIcon {
           color: #797e86;
           position: relative;
           top: 2px;
+        }
+        a {
+          font-size: 0.9rem;
         }
       }
     }
@@ -119,12 +147,14 @@
         margin-bottom: 1rem;
         font-size: 0.8rem;
         a {
-          border-bottom: 1px solid transparent;
+          text-decoration: none;
+          color: #0066c0;
 
           // border-bottom: 1px solid transparent;
           &:hover {
-            border-bottom: 1px solid #b96907;
-            color: #b96907;
+            text-decoration: underline;
+            cursor: pointer;
+            color: #c45500;
           }
         }
       }

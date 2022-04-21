@@ -19,7 +19,7 @@ const SignInPage = () => {
             </div>
             <div className={styles.inputBox}>
               <p>
-                <label htmlFor="">Email or mobile number</label>
+                <label htmlFor="">Password</label>
                 <Link to="#">Forgot password ? </Link>
               </p>
               <input type="password" />
