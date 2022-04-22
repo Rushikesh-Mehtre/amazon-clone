@@ -1,0 +1,132 @@
+@import "../styles/theme.scss";
+.footer {
+  color: white;
+  .scrollToTopText {
+    text-align: center;
+    padding: 1rem;
+    background-color: #37475a;
+    &:hover {
+      background-color: #485769;
+    }
+    cursor: pointer;
+    font-size: $regularFontSize;
+    font-weight: bold;
+  }
+  .links {
+    background-color: #232f3e;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    padding: 2rem;
+    font-size: $regularFontSize;
+    .linksColumn {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+
+      .linksColumnHead {
+        font-size: calc($regularFontSize + 2px);
+        font-weight: bold;
+        margin-bottom: 0.3rem;
+        color: $whiteColor;
+      }
+      .link {
+        color: $darkGrayColor;
+        &:hover {
+          cursor: pointer;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  .countries {
+    padding: 3rem 0 1rem 0;
+    border-top: 0.05rem solid #ddd;
+    background-color: #232f3e;
+
+    .head {
+      display: flex;
+      justify-content: center;
+      gap: 6rem;
+      align-items: center;
+      img {
+        width: 80px;
+        object-fit: contain;
+      }
+      select {
+        height: 30px;
+        background-color: transparent;
+        padding: 0 0.75rem;
+        border: 1px solid #848688;
+        border-radius: 4px;
+        color: $whiteColor;
+        position: relative;
+        top: -8px;
+        cursor: pointer;
+        .langOption {
+          background-color: #232f3e;
+          cursor: pointer;
+        }
+      }
+    }
+    .countriesList {
+      padding: 1rem;
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      justify-content: center;
+      color: $darkGrayColor;
+      font-size: $mediumFontSize;
+      width: 65%;
+      margin: auto;
+      .countryName {
+        &:hover {
+          text-decoration: underline;
+        }
+        cursor: pointer;
+      }
+    }
+  }
+  .others {
+    padding: 2rem;
+    background-color: #131a22;
+    .otherServices {
+      font-size: $smallFontSize;
+      display: flex;
+      width: 60%;
+      margin: auto;
+      flex-wrap: wrap;
+      gap: 2rem 6rem;
+      .otherServicesItem {
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        &:hover {
+          text-decoration: underline;
+        }
+        cursor: pointer;
+        .head {
+          font-weight: bold;
+          color: $lightGrayColor;
+        }
+        .subhead {
+          color: $darkGrayColor;
+        }
+      }
+    }
+    .copyRights {
+      font-size: $mediumFontSize;
+      padding-top: 2rem;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      color: $darkGrayColor;
+      p {
+        &:hover {
+          cursor: pointer;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

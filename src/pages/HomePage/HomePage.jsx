@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Home from "../../components/Home";
 import ImageSlider from "../../components/ImageSlider";
@@ -11,6 +12,7 @@ const HomePage = () => {
       <SubHeadBar />
       <ImageSlider />
       <Home />
+      <Footer />
     </div>
   );
 };
