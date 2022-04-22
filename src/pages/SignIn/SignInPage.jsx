@@ -10,42 +10,37 @@ const SignInPage = () => {
     navigate("/signup");
   };
   return (
-    <div>
-      <div className={styles.signinPage}>
-        <img src={amazon1} alt="" className={styles.img} />
+    <div className={styles.signInPage}>
+      <div className={styles.top}>
+        <img src={amazon1} alt="" />
         <div className={styles.loginForm}>
-          <h1>Sign In</h1>
+          <p className={styles.head}>Sign In</p>
           <form action="">
-            <div className={styles.number}>
-              <label htmlFor="">Email or mobile phone number</label>
+            <div className={styles.inputBox}>
+              <label htmlFor="">Email or mobile number</label>
               <input type="text" />
             </div>
-            <div className={styles.password}>
-              <div className={styles.label}>
+            <div className={styles.inputBox}>
+              <p>
                 <label htmlFor="">Password</label>
-                <p>forgot password </p>
-              </div>
-              <input type="text" />
+                <Link to="#">Forgot password ? </Link>
+              </p>
+              <input type="password" />
             </div>
-            <button className={styles.btn}>Sign in</button>
-            <p>
-              By continuing, you agree to Amazon's{" "}
-              <span className={styles.termsLink}>Conditions of Use</span> and
-              <span className={styles.termsLink}>Privacy Notice.</span>
-            </p>
-            <div>
+            <button type="submit" className={styles.signIn}>
+              Sign in
+            </button>
+            <div className={styles.checkBox}>
               <input type="checkbox" />
-              <label htmlFor="">
-                Keep me signed in{" "}
-                <span className={styles.detailLink}>
-                  Details <AiFillCaretDown />
-                </span>{" "}
-              </label>
+              <label htmlFor="">Keep me signed in.</label>
+              <Link to="#">
+                Details <AiFillCaretDown className={styles.downIcon} />
+              </Link>
             </div>
-            <div>
-              <p>New to Amazon?</p>
-              <button onClick={signUpHandler}>
-                Create your Amazon account{" "}
+            <div className={styles.newAccount}>
+              <p>New to amazon ? </p>
+              <button className={styles.createAccount} onClick={signUpHandler}>
+                Create your Amazon account
               </button>
             </div>
           </form>
