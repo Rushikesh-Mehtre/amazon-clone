@@ -136,33 +136,4 @@
       }
     }
   }
-  .bottom {
-    padding: 2rem 0;
-    width: 50%;
-
-    p {
-      &.links {
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 1rem;
-        font-size: 0.8rem;
-        a {
-          text-decoration: none;
-          color: #0066c0;
-
-          // border-bottom: 1px solid transparent;
-          &:hover {
-            text-decoration: underline;
-            cursor: pointer;
-            color: #c45500;
-          }
-        }
-      }
-      &.copyRight {
-        text-align: center;
-        color: #767676;
-        font-size: 0.8rem;
-      }
-    }
-  }
 }

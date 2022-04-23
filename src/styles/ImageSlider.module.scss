@@ -1,22 +1,12 @@
 .imageSlider {
-  // margin-bottom: -250px;
-  //   width: 100%;
-  //   margin: auto;
   width: 100%;
   overflow-x: hidden;
   overflow-y: hidden;
-  // z-index: -99;
   .imgContainer {
     box-sizing: border-box;
-    // height: 700px;
-    // padding-top: 100px;
-    // border: 1px solid black;
-
     img {
       width: 100vw;
       object-fit: contain;
-      //   mask-image: linear-gradient(to bottom, rgba(0, 0, 01), rgba(0, 0, 0, 0));
-      // z-index: -1;
     }
   }
 }
