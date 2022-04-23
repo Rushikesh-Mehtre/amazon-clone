@@ -4,6 +4,7 @@ import amazon1 from "../../assets/images/amazon1.png";
 import { Link } from "react-router-dom";
 import { HiOutlineInformationCircle } from "react-icons/hi";
 import { AiFillCaretRight } from "react-icons/ai";
+import BottomLine from "../../components/BottomLine";
 
 const SignUp = () => {
   return (
@@ -67,7 +68,7 @@ const SignUp = () => {
           </form>
         </div>
       </div>
-      <div className={styles.bottom}></div>
+      <BottomLine />
     </div>
   );
 };

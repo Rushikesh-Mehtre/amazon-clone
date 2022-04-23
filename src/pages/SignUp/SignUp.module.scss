@@ -1,6 +1,12 @@
 @import "../../styles/styles.scss";
 .signUp {
+  width: 22%;
+  margin: auto;
   color: #111;
+  a {
+    color: #0066c0;
+    font-weight: 500;
+  }
   .top {
     display: flex;
     flex-direction: column;
@@ -15,7 +21,6 @@
     // width: 50%;
     margin: auto;
     .signUpForm {
-      width: 20%;
       padding: 0.75rem 1rem;
       margin: auto;
       border: 1px solid #ddd;
@@ -159,7 +164,5 @@
         }
       }
     }
-  }
-  .bottom {
   }
 }

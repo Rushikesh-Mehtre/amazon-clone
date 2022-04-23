@@ -13,14 +13,54 @@ import homeImg6 from "../assets/images/home-image-6.jpg";
 import homeImg7 from "../assets/images/home-image-7.jpg";
 import homeImg8 from "../assets/images/home-image-8.jpg";
 const ImageSlider = () => {
+  function SampleNextArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{
+          ...style,
+          display: "block",
+          color: "black",
+          // border: "1px solid #ddd",
+          marginRight: "35px",
+          marginTop: "-160px",
+          padding: "8.5rem 1.5rem",
+          zIndex: 99,
+        }}
+        onClick={onClick}
+      />
+    );
+  }
+
+  function SamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{
+          ...style,
+          display: "block",
+          color: "black",
+          // border: "1px solid #ddd",
+          marginLeft: "35px",
+          marginTop: "-160px",
+          padding: "8.5rem 1.5rem",
+          zIndex: 99,
+        }}
+        onClick={onClick}
+      />
+    );
+  }
   const settings = {
-    dots: true,
     infinite: true,
     autoplay: true,
     autoplaySpeed: 3000,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
   };
   return (
     <div className={styles.imageSlider}>
