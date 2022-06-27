@@ -5,7 +5,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from "react-router-dom";
 import Countdown from "react-countdown";
-const ProductsSlider = ({ title, productsList, link }) => {
+import { AiFillStar } from "react-icons/ai";
+
+const ProductsSlider = ({ title, productsList, link, type }) => {
   function SampleNextArrow(props) {
     const { className, style, onClick } = props;
     return (
@@ -46,9 +48,6 @@ const ProductsSlider = ({ title, productsList, link }) => {
     );
   }
   const settings = {
-    // arrows: false,
-    // infinite: true,
-    // autoplay: true,
     autoplaySpeed: 3000,
     speed: 500,
     slidesToShow: 6,
@@ -75,6 +74,26 @@ const ProductsSlider = ({ title, productsList, link }) => {
                   Ends in :{" "}
                   <Countdown key={item.id} date={Date.now() + item.endsIn} />
                 </p>
+              )}
+              {item.title && (
+                <p className={styles.title}>{item.title.substring(0, 20)}...</p>
+              )}
+              {item.rating && item.reviews && (
+                <p className={styles.ratingAndReview}>
+                  <span>
+                    <AiFillStar className={styles.icon} />
+                    <AiFillStar className={styles.icon} />
+                    <AiFillStar className={styles.icon} />
+                    <AiFillStar className={styles.icon} />
+                  </span>
+                  <span className={styles.reviews}>
+                    {item.reviews && item.reviews}
+                  </span>
+                </p>
+              )}
+              {item.price && <p className={styles.price}>₹{item.price}</p>}
+              {item.price && (
+                <button className={styles.addToCart}>Add to cart</button>
               )}
             </div>
           );

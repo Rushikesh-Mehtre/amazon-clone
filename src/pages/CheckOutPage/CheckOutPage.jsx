@@ -1,5 +1,7 @@
 import React from "react";
+import Footer from "../../components/Footer";
 import Header from "../../components/Header";
+import RecentlyViewedItems from "../../components/RecentlyViewedItems";
 import SubTotal from "../../components/SubTotal";
 import styles from "./CheckOutPage.module.scss";
 const CheckOutPage = () => {
@@ -19,6 +21,8 @@ const CheckOutPage = () => {
           <SubTotal />
         </div>
       </div>
+      <RecentlyViewedItems />
+      <Footer />
     </div>
   );
 };
