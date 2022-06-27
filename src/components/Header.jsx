@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import styles from "../styles/Header.module.scss";
 import logo from "../assets/images/amazon.png";
 import SearchIcon from "@mui/icons-material/Search";
@@ -9,9 +9,11 @@ import LocationOnIcon from "@mui/icons-material/LocationOn";
 // import { useStateValue } from "../context/StateProvider";
 import LocationModal from "./LocationModal";
 import { BsCart3 } from "react-icons/bs";
-
+import { CartItemsContext } from "../context/CartItemsContext";
 const Header = () => {
   // const [{ basket }, dispatch] = useStateValue();
+  const { items } = useContext(CartItemsContext)
+  console.log(items)
   const navigate = useNavigate();
   const [input, setInput] = useState();
   const searchHandler = () => {
@@ -83,7 +85,7 @@ const Header = () => {
                 styles.header_BasketCount
               )}
             >
-              5{/* {basket.length} */}
+              {items.length > 0 ? items.length : ""}{/* {basket.length} */}
             </span>
           </Link>
         </div>

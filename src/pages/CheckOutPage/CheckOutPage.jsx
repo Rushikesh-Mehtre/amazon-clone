@@ -1,10 +1,18 @@
-import React from "react";
+import React, { useContext, useEffect } from "react";
+import AddedToCartItems from "../../components/AddedToCartItems";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import RecentlyViewedItems from "../../components/RecentlyViewedItems";
 import SubTotal from "../../components/SubTotal";
 import styles from "./CheckOutPage.module.scss";
+import { CartItemsContext } from "../../context/CartItemsContext";
+import SavedForLaterItems from "../../components/SavedForLaterItems";
 const CheckOutPage = () => {
+  useEffect(() => {
+    window.scroll(0, 0)
+  }, [])
+  const { items, saveForLaterItems } = useContext(CartItemsContext);
+  console.log(items)
   const imgUrl =
     "https://m.media-amazon.com/images/G/31/AMS/IN/970X250-_desktop_banner.jpg";
   return (
@@ -14,13 +22,17 @@ const CheckOutPage = () => {
         <div className={styles.checkOut_Left}>
           <img src={imgUrl} className={styles.checkOut_Ad} alt="" />
           <div>
-            <h2 className={styles.CheckOutTitle}>Your Shopping Basket</h2>
+            <h2 className={styles.CheckOutTitle}>Shopping Cart
+            </h2>
+            {items.length > 0 && <p className={styles.subHead}> <span>Deselect all items</span> <span>price</span> </p>
+            }            <AddedToCartItems addedToCartItems={items} />
           </div>
         </div>
         <div className={styles.checkOut_Right}>
           <SubTotal />
         </div>
       </div>
+      {saveForLaterItems.length > 0 && <SavedForLaterItems />}
       <RecentlyViewedItems />
       <Footer />
     </div>

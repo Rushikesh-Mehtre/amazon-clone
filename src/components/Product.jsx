@@ -1,21 +1,17 @@
 import React from "react";
+import { useContext } from "react";
 // import { useStateValue } from "../context/StateProvider";
+import { CartItemsContext } from "../context/CartItemsContext";
 import styles from "../styles/Product.module.scss";
 const Product = ({ id, title, price, rating, image }) => {
   // const [{ basket }, dispatch] = useStateValue();
   // console.log(basket);
-  // const addToBaketHandler = () => {
-  //   dispatch({
-  //     type: "ADD_TO_BASKET",
-  //     item: {
-  //       id: id,
-  //       title: title,
-  //       image: image,
-  //       price: price,
-  //       rating: rating,
-  //     },
-  //   });
-  // };
+  const { dispatchItemEvent } = useContext(CartItemsContext)
+  const addToBaketHandler = (id, title, price, rating, image) => {
+    console.log("lets add item")
+    dispatchItemEvent('ADD_ITEM', { id, title, price, rating, image });
+
+  }
   return (
     <div className={styles.product}>
       <div className={styles.productInfo}>
@@ -36,7 +32,7 @@ const Product = ({ id, title, price, rating, image }) => {
       </div>
       <img src={image} alt="" />
       <button
-      // onClick={addToBaketHandler}
+        onClick={() => addToBaketHandler(id, title, price, rating, image)}
       >
         Add to cart
       </button>

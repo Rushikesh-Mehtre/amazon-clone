@@ -1,15 +1,17 @@
 import styles from "../styles/ProductsSlider.module.scss";
-import React from "react";
+import React, { useContext } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from "react-router-dom";
 import Countdown from "react-countdown";
 import { AiFillStar } from "react-icons/ai";
-
+import { CartItemsContext } from "../context/CartItemsContext";
 const ProductsSlider = ({ title, productsList, link, type }) => {
+  console.log(productsList)
   function SampleNextArrow(props) {
     const { className, style, onClick } = props;
+
     return (
       <div
         className={className}
@@ -55,6 +57,12 @@ const ProductsSlider = ({ title, productsList, link, type }) => {
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
   };
+  const { dispatchItemEvent } = useContext(CartItemsContext);
+  const addItemHandler = (id, img, priceRange, price, title, rating, reviews) => {
+    console.log("lets add item")
+    dispatchItemEvent('ADD_ITEM', { id, img, priceRange, price, title, rating, reviews });
+
+  }
   return (
     <div className={styles.productsSlider}>
       <div className={styles.header}>
@@ -93,7 +101,7 @@ const ProductsSlider = ({ title, productsList, link, type }) => {
               )}
               {item.price && <p className={styles.price}>₹{item.price}</p>}
               {item.price && (
-                <button className={styles.addToCart}>Add to cart</button>
+                <button className={styles.addToCart} onClick={() => addItemHandler(item.id, item.imgUrl, item.priceRange, item.price, item.title, item.rating, item.reviews)}>Add to cart</button>
               )}
             </div>
           );
