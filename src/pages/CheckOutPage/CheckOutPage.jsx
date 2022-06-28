@@ -22,10 +22,9 @@ const CheckOutPage = () => {
         <div className={styles.checkOut_Left}>
           <img src={imgUrl} className={styles.checkOut_Ad} alt="" />
           <div>
-            <h2 className={styles.CheckOutTitle}>Shopping Cart
-            </h2>
-            {items.length > 0 && <p className={styles.subHead}> <span>Deselect all items</span> <span>price</span> </p>
-            }            <AddedToCartItems addedToCartItems={items} />
+            {/* <h2 className={styles.CheckOutTitle}>Shopping Cart
+            </h2> */}
+            <AddedToCartItems addedToCartItems={items} />
           </div>
         </div>
         <div className={styles.checkOut_Right}>

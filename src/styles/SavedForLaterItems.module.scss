@@ -1,8 +1,68 @@
-.SavedForLaterItems {
+.savedForLaterItems {
+  margin: 1.5rem;
+  width: 66.3%;
+  padding: 1rem 2rem;
+  background-color: white;
   .header {
-    font-size: 18px;
+    font-size: 1.5rem;
     font-weight: bold;
   }
-  .subhead {
+  .subHeader {
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+  }
+  .itemList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    .item {
+      padding: 1rem;
+      border: 1px solid #ddd;
+      display: flex;
+      flex-direction: column;
+      .img {
+        width: 200px;
+        height: 250px;
+        margin: auto;
+      }
+      .title {
+        font-weight: bold;
+      }
+      .avail {
+        font-size: 12px;
+        color: #007600;
+      }
+      .prime {
+        height: 26px;
+        width: 61px;
+        position: relative;
+        left: -8px;
+      }
+      button {
+        border: 1px solid #ddd;
+        padding: 0.4rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.3rem;
+        border-radius: 8px;
+        // background-color: #e3e6e6;
+        cursor: pointer;
+        outline: none;
+        border: 1px solid #e3e6e6;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.16), 0 0px 1px rgba(0, 0, 0, 0.23);
+        &:hover {
+          background-color: #dee6e6;
+        }
+      }
+      .delete {
+        font-size: 12px;
+        color: #0066c0;
+        cursor: pointer;
+        border-bottom: 1px solid transparent;
+        width: fit-content;
+        &:hover {
+          border-bottom: 1px solid #0066c0;
+        }
+      }
+    }
   }
 }

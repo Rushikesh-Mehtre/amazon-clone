@@ -33,6 +33,14 @@ function App() {
         );
         setSaveForLaterItems([...saveForLaterItems, payload]);
         return;
+      case "REMOVE_FROM_SAVED_ITEMS":
+        setSaveForLaterItems(
+          items.filter(
+            (item) => item.id !== payload.id && item.title !== payload.title
+          )
+        );
+
+        return;
       default:
         return;
     }
