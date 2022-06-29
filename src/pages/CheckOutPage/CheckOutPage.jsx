@@ -7,6 +7,7 @@ import SubTotal from "../../components/SubTotal";
 import styles from "./CheckOutPage.module.scss";
 import { CartItemsContext } from "../../context/CartItemsContext";
 import SavedForLaterItems from "../../components/SavedForLaterItems";
+import SponsoredProducts from "../../components/SponsoredProducts";
 const CheckOutPage = () => {
   useEffect(() => {
     window.scroll(0, 0)
@@ -29,6 +30,7 @@ const CheckOutPage = () => {
         </div>
         <div className={styles.checkOut_Right}>
           <SubTotal />
+          {items.length > 0 && <SponsoredProducts />}
         </div>
       </div>
       {saveForLaterItems.length > 0 && <SavedForLaterItems />}

@@ -19,7 +19,6 @@ const SubHeadBar = () => {
         <Link to="/health&household">Gift Cards</Link>
         <Link to="/health&household">Buy Again</Link>
         <Link to="/health&household">Gift Ideas</Link>
-        <Link to="/health&household">Home Improvement</Link>
         <Link to="/health&household">Amazon Basics</Link>
         <Link to="/health&household">Health,Household & Personal care</Link>
       </div>

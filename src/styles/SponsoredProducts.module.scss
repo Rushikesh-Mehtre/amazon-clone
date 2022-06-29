@@ -1,0 +1,76 @@
+.sponsoredProducts {
+  background-color: white;
+  border-radius: 8px;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  .head {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  .products {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    .productItem {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 0.5rem;
+      padding: 1rem;
+      img {
+        height: 100px;
+        margin: auto;
+        margin-bottom: 0.5rem;
+      }
+      .right {
+        display: flex;
+        flex-direction: column;
+        p {
+          // text-align: center;
+          &.priceRange {
+            font-size: 16px;
+          }
+          &.endsIn {
+            font-size: 12px;
+          }
+        }
+        .addToCart {
+          margin-top: 0.5rem;
+          height: 22px;
+          border-radius: 8px;
+          box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+          background: #ffd814;
+          border: 1px solid #fcd200;
+          color: #0f1111;
+          font-size: 11px;
+          cursor: pointer;
+          &:hover {
+            background: #f7ca00;
+            border-color: #f2c200;
+            box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+          }
+        }
+        .ratingAndReview {
+          display: flex;
+          // align-items: center;
+          gap: 0.5rem;
+          .icon {
+            color: #f2c200;
+            position: relative;
+            // top: 1px;
+          }
+          .reviews {
+            color: #007185;
+            font-size: 13px;
+          }
+        }
+        .title {
+          color: #007185;
+        }
+        .price {
+          color: #b12704;
+        }
+      }
+    }
+  }
+}

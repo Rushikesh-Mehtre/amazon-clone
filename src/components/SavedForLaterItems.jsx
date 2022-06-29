@@ -9,7 +9,6 @@ const SavedForLaterItems = () => {
     const moveToCartHandler = (id, image, title, price) => {
         dispatchItemEvent('ADD_ITEM', { id, image, title, price });
         dispatchItemEvent('REMOVE_FROM_SAVED_ITEMS', { id, image, title, price });
-
     }
     const deleteHandler = (id, image, title, price) => {
         dispatchItemEvent('REMOVE_FROM_SAVED_ITEMS', { id, image, title, price });

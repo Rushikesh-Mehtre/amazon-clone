@@ -26,9 +26,11 @@
     }
   }
   .addedToCartItem {
-    // display: inline-grid;
-    // grid-template-columns: 1fr 2fr 13fr;
-    display: flex;
+    display: inline-grid;
+    grid-template-columns: 1fr 2fr 13fr;
+    // display: flex;
+    grid-gap: 1rem;
+    justify-content: space-between;
     align-items: center;
     grid-gap: 1.5rem;
     padding: 1.5rem;

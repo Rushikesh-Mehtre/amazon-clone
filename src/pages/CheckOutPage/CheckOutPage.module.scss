@@ -2,8 +2,9 @@
   background-color: #eaeded;
 
   .checkOut {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 7fr 1fr;
+    grid-gap: 1rem;
     padding: 20px;
     background-color: white;
     height: max-content;
@@ -21,6 +22,10 @@
       }
     }
     .checkOut_Right {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      margin: 0 1rem;
     }
   }
 }
