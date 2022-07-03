@@ -9,18 +9,18 @@ const SubHeadBar = () => {
   return (
     <div className={styles.subHeadBar}>
       <div className={styles.left}>
-        <Link to="/health&household">
+        <Link to="/#">
           <GiHamburgerMenu className={styles.hamMenu} />
           All
         </Link>
-        <Link to="/health&household">Mobiles</Link>
-        <Link to="/health&household">Computers</Link>
-        <Link to="/health&household">New Releases</Link>
-        <Link to="/health&household">Gift Cards</Link>
-        <Link to="/health&household">Buy Again</Link>
-        <Link to="/health&household">Gift Ideas</Link>
-        <Link to="/health&household">Amazon Basics</Link>
-        <Link to="/health&household">Health,Household & Personal care</Link>
+        <Link to="/#">Mobiles</Link>
+        <Link to="/#">Computers</Link>
+        <Link to="/#">New Releases</Link>
+        <Link to="/#">Gift Cards</Link>
+        <Link to="/#">Buy Again</Link>
+        <Link to="/#">Gift Ideas</Link>
+        <Link to="/#">Amazon Basics</Link>
+        <Link to="/#">Health,Household & Personal care</Link>
       </div>
       <div className={styles.right}>
         <Link to="/signin">

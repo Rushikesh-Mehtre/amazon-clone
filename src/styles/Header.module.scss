@@ -89,6 +89,8 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
+      position: relative;
+      top: 5px;
       .link {
         text-decoration: none;
         display: flex;

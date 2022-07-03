@@ -29,7 +29,7 @@ const CheckOutPage = () => {
           </div>
         </div>
         <div className={styles.checkOut_Right}>
-          <SubTotal />
+          {items.length > 0 && <SubTotal />}
           {items.length > 0 && <SponsoredProducts />}
         </div>
       </div>
