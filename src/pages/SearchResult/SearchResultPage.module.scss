@@ -1,0 +1,137 @@
+.searchResultPage {
+  .NumOfResults {
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid #ddd;
+    -webkit-box-shadow: 0 10px 10px -10px #dbc9c9;
+    -moz-box-shadow: 0 10px 10px -10px #dbc9c9;
+    box-shadow: 0 10px 10px -10px #dbc9c9;
+    span {
+      color: #c7511f;
+      font-weight: bold;
+    }
+  }
+  .searchItems {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-gap: 2rem;
+    .filter {
+    }
+    .content {
+      .ad {
+        .adItem {
+          .top {
+            display: flex;
+            gap: 2rem;
+            margin-bottom: 1rem;
+            img {
+              width: 130px;
+              height: 44px;
+              padding-right: 10px;
+              border-right: 2px solid #ddd;
+            }
+            p {
+              font-weight: bold;
+            }
+          }
+          .adBlocks {
+            background-color: #e6e6e6;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 2rem;
+            padding-right: 1rem;
+            .mainImg {
+              width: 405px;
+
+              height: 100%;
+            }
+            .adBlock {
+              margin: 1rem 0;
+              background: white;
+              border: 1px solid #ddd;
+              border-radius: 4px;
+              padding: 1rem;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              img {
+                width: 115px;
+                height: 105px;
+                display: block;
+                margin-bottom: 0.5rem;
+              }
+            }
+          }
+        }
+      }
+      .resultHead {
+        margin: 1rem 0;
+        font-size: 1.3rem;
+      }
+      .list {
+        .searchItem {
+          display: grid;
+          grid-template-columns: 1fr 5fr;
+          grid-gap: 1rem;
+          border: 0.5px solid #ddd;
+          border-radius: 4px;
+          margin-bottom: 0.5rem;
+
+          .imgContainer {
+            cursor: pointer;
+            padding: 0.5rem;
+            .img {
+              width: 250px;
+              height: 200px;
+              background: url("https://upload.wikimedia.org/wikipedia/commons/7/72/Santipur_B.Ed_College_Logo.png")
+                no-repeat scroll center center transparent;
+              background-size: cover;
+            }
+          }
+          .title {
+            padding-top: 2rem;
+            font-size: 1.2rem;
+          }
+          .price {
+            color: #c7511f;
+            font-size: 1.1rem;
+          }
+          .ratingAndReview {
+            display: flex;
+            // align-items: center;
+            gap: 0.5rem;
+            .icon {
+              color: #f2c200;
+              position: relative;
+              // top: 1px;
+            }
+            .reviews {
+              color: #007185;
+              font-size: 13px;
+            }
+          }
+          .saveExtra {
+            color: #565959;
+            font-size: 0.8rem;
+            margin-bottom: 0.5rem;
+          }
+          .searchItemDetails {
+            display: flex;
+            flex-direction: column;
+            .primeDelivery {
+              position: relative;
+              left: -10px;
+              font-size: 0.8rem;
+              display: flex;
+              align-items: center;
+              img {
+                width: 66px;
+                height: 22px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

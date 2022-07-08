@@ -69,7 +69,7 @@ const CheckOutDetailsPage = () => {
                             {
                                 items.map((item) =>
                                     <div key={item.id} className={styles.items}>
-                                        <img src={item.img} alt="" />
+                                        <img src={item.img || item.image} alt="" />
                                         <div className={styles.itemDetails}>
                                             <p> <strong>{item.title}</strong> </p>
                                             <p className={styles.price}>₹{item.price} <img src={primeLogo} className={styles.checkedPrime} alt="" /> </p>

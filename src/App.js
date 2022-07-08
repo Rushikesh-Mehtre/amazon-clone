@@ -9,6 +9,7 @@ import SignUp from "./pages/SignUp/SignUp";
 import { CartItemsContext } from "./context/CartItemsContext";
 import { useState } from "react";
 import CheckOutDetailsPage from "./pages/CheckOutDetailsPage/CheckOutDetailsPage";
+import ItemDetailsPage from "./pages/ItemDetailsPage/ItemDetailsPage";
 function App() {
   const [items, setItems] = useState([]);
   const [saveForLaterItems, setSaveForLaterItems] = useState([]);
@@ -58,6 +59,7 @@ function App() {
           <Route path="/signin" element={<SignInPage />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/search/:keyword" element={<SearchResultPage />} />
+          <Route path="/itemdetials" element={<ItemDetailsPage />} />
           <Route path="/health&household" element={<HealthHouseHold />} />
         </Routes>
       </CartItemsContext.Provider>
