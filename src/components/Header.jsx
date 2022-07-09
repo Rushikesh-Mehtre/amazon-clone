@@ -10,10 +10,9 @@ import LocationOnIcon from "@mui/icons-material/LocationOn";
 import LocationModal from "./LocationModal";
 import { BsCart3 } from "react-icons/bs";
 import { CartItemsContext } from "../context/CartItemsContext";
+import { LoggedInContext } from "../context/LoggedInContext";
 const Header = () => {
-  // const [{ basket }, dispatch] = useStateValue();
-  const { items } = useContext(CartItemsContext)
-  console.log(items)
+  const { items } = useContext(CartItemsContext);
   const navigate = useNavigate();
   const [input, setInput] = useState();
   const searchHandler = () => {
@@ -24,6 +23,13 @@ const Header = () => {
       console.log(input);
     }
   };
+  const { dispatchItemEvent } = useContext(CartItemsContext);
+  const { isLoggedIn, dispatchLogInEvent } = useContext(LoggedInContext);
+  const LogOutHandler = () => {
+    dispatchLogInEvent("LOG_OUT");
+    dispatchItemEvent("REMOVE_ALL_ITEMS")
+    navigate("/");
+  }
   return (
     <div className={styles.header}>
       <Link to="/">
@@ -61,16 +67,18 @@ const Header = () => {
       </div>
       <div className={styles.header_Nav}>
         <div className={styles.header_Option}>
-          <span className={styles.header_Option_Lineone}>Hello guest</span>
-          <Link to="/signin" className={styles.header_Option_Linetwo}>
-            Sign in
-          </Link>
+          <span className={styles.header_Option_Lineone}>Hello {isLoggedIn ? "User" : "guest"}</span>
+          {isLoggedIn ? <p onClick={LogOutHandler} className={styles.header_Option_Linetwo}>Log out</p> :
+            <Link to="/signin" className={styles.header_Option_Linetwo}>
+              Sign in
+            </Link>
+          }
         </div>
-        <div className={styles.header_Option}>
+        <div className={styles.header_Option} onClick={() => navigate("/returns&orders")}>
           <span className={styles.header_Option_Lineone}>Returns</span>
           <span className={styles.header_Option_Linetwo}>& Orders</span>
         </div>
-        <div className={styles.header_Option}>
+        <div className={styles.header_Option} onClick={() => navigate("/prime")}>
           <span className={styles.header_Option_Lineone}>Your</span>
           <span className={styles.header_Option_Linetwo}>Prime</span>
         </div>
@@ -85,7 +93,7 @@ const Header = () => {
                 styles.header_BasketCount
               )}
             >
-              {items.length > 0 ? items.length : ""}{/* {basket.length} */}
+              {items.length > 0 ? items.length : ""}
             </span>
           </Link>
         </div>

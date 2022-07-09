@@ -5,9 +5,10 @@ import { useContext } from 'react';
 import primeLogo from "../../assets/images/checked_prime.png";
 import { AiOutlineLock } from 'react-icons/ai';
 import amazonLogo from "../../assets/images/amazon1.png"
+import { useNavigate } from 'react-router-dom';
 
 const CheckOutDetailsPage = () => {
-    const { items } = useContext(CartItemsContext);
+    const { items, dispatchItemEvent } = useContext(CartItemsContext);
     const [address, setAddress] = useState("");
     const addressHandler = (value) => {
         setAddress(value);
@@ -19,6 +20,18 @@ const CheckOutDetailsPage = () => {
     let subtotal = items.reduce((accumulator, object) => {
         return Number(accumulator) + Number(object.price);
     }, 0);
+    const navigate = useNavigate();
+    const placeOrderHandler = () => {
+        if (!address || !paymentMethod) {
+            alert("Please select Address and Payment method");
+            return;
+        } else {
+            alert("order placed successfully.");
+            dispatchItemEvent("REMOVE_ALL_ITEMS");
+            navigate("/")
+
+        }
+    }
     return (
         <div className={styles.checkOutDetailsPage}>
             <div className={styles.top}>
@@ -94,7 +107,7 @@ const CheckOutDetailsPage = () => {
                     </div>
                 </div>
                 <div className={styles.right}>
-                    <button>Place your order</button>
+                    <button onClick={placeOrderHandler}>Place your order</button>
                     <p className={styles.rightTopText}>By placing your order, you agree to Amazon's privacy notice and conditions of use.</p>
                     <p className={styles.rightHead}>Order Summary</p>
                     <p className={styles.numbers}>

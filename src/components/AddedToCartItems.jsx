@@ -4,23 +4,19 @@ import { CartItemsContext } from '../context/CartItemsContext'
 import checkedPrime from "../assets/images/checked_prime.png"
 const AddedToCartItems = ({ addedToCartItems }) => {
     const { items, dispatchItemEvent } = useContext(CartItemsContext)
-    console.log(addedToCartItems);
     items.map((item) => console.log(item.price))
     let subtotal = items.reduce((accumulator, object) => {
         return Number(accumulator) + Number(object.price);
     }, 0);
-    console.log(subtotal)
     const deleteHandler = (id, title) => {
         dispatchItemEvent('REMOVE_ITEM', { id, title });
-
     }
     const saveForLaterHandler = (id, image, title, price) => {
         dispatchItemEvent('SAVE_FOR_LATER_ITEM', { id, image, title, price });
-
     }
     return (
         <>
-            {items.length > 0 && <div className={styles.addedToCartItemsBlock}>
+            {items.length > 0 ? <div className={styles.addedToCartItemsBlock}>
                 <p className={styles.head}>Shopping Cart
                 </p>
                 {items.length > 0 && <p className={styles.subHead}> <span>Deselect all items</span> <span>price</span> </p>
@@ -54,6 +50,12 @@ const AddedToCartItems = ({ addedToCartItems }) => {
                     </div>
                 ) : ""}
                 {addedToCartItems.length > 0 && <p className={styles.subTotal}>Subtotal ({items.length} items) : ₹<span className={styles.number}>{Number(subtotal).toFixed(2)}</span> </p>}
+            </div> : <div className={styles.emptyCart}>
+                <p>Your Amazon Cart is empty.</p>
+                <p>Check your Saved for later items below or continue shopping.
+
+                </p>
+
             </div>}
         </>
 

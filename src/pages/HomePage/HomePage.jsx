@@ -186,6 +186,7 @@ const HomePage = () => {
         title="Up to 60% off on home products | Small businesses"
         link="See all offers"
       />
+
       <SignInRecommendation />
       <Footer />
     </div>
