@@ -4,7 +4,6 @@ import { CartItemsContext } from '../context/CartItemsContext'
 import checkedPrime from "../assets/images/checked_prime.png"
 const AddedToCartItems = ({ addedToCartItems }) => {
     const { items, dispatchItemEvent } = useContext(CartItemsContext)
-    items.map((item) => console.log(item.price))
     let subtotal = items.reduce((accumulator, object) => {
         return Number(accumulator) + Number(object.price);
     }, 0);

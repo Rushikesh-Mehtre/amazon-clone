@@ -5,7 +5,6 @@ import styles from "../styles/SavedForLaterItems.module.scss"
 import checkedPrime from "../assets/images/checked_prime.png"
 const SavedForLaterItems = () => {
     const { saveForLaterItems, dispatchItemEvent } = useContext(CartItemsContext);
-    console.log(saveForLaterItems)
     const moveToCartHandler = (id, image, title, price) => {
         dispatchItemEvent('ADD_ITEM', { id, image, title, price });
         dispatchItemEvent('REMOVE_FROM_SAVED_ITEMS', { id, image, title, price });

@@ -8,7 +8,6 @@ import Countdown from "react-countdown";
 import { AiFillStar } from "react-icons/ai";
 import { CartItemsContext } from "../context/CartItemsContext";
 const ProductsSlider = ({ title, productsList, link, type }) => {
-  console.log(productsList)
   function SampleNextArrow(props) {
     const { className, style, onClick } = props;
 
@@ -59,7 +58,6 @@ const ProductsSlider = ({ title, productsList, link, type }) => {
   };
   const { dispatchItemEvent } = useContext(CartItemsContext);
   const addItemHandler = (id, img, priceRange, price, title, rating, reviews) => {
-    console.log("lets add item")
     dispatchItemEvent('ADD_ITEM', { id, img, priceRange, price, title, rating, reviews });
 
   }

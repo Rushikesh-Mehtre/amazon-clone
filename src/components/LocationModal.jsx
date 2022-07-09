@@ -46,7 +46,6 @@ const LocationModal = () => {
   const [pincode, setPincode] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
   const pincodeHandler = () => {
-    console.log(pincode);
     if (pincode.length < 6) {
       setErrorMessage(true);
       return;

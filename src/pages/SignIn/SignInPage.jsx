@@ -19,7 +19,6 @@ const SignInPage = () => {
 
   const signInHandler = (e) => {
     e.preventDefault()
-    console.log(signInCredentials);
     if (!signInCredentials.emailOrNum || !signInCredentials.password) {
       alert("Please enter email id/number and password");
       return;

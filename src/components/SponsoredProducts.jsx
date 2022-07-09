@@ -45,7 +45,6 @@ const SponsoredProducts = () => {
     ];
     const { dispatchItemEvent } = useContext(CartItemsContext);
     const addItemHandler = (id, img, priceRange, price, title, rating, reviews) => {
-        console.log("lets add item")
         dispatchItemEvent('ADD_ITEM', { id, img, priceRange, price, title, rating, reviews });
 
     }

@@ -13,7 +13,6 @@ const CheckOutPage = () => {
     window.scroll(0, 0)
   }, [])
   const { items, saveForLaterItems } = useContext(CartItemsContext);
-  console.log(items)
   const imgUrl =
     "https://m.media-amazon.com/images/G/31/AMS/IN/970X250-_desktop_banner.jpg";
   return (

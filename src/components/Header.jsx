@@ -20,7 +20,6 @@ const Header = () => {
       navigate("/");
     } else {
       navigate(`/search/${input}`);
-      console.log(input);
     }
   };
   const { dispatchItemEvent } = useContext(CartItemsContext);
