@@ -52,7 +52,7 @@
       padding: 13px;
       border: none;
       width: 100%;
-      outline: none;
+      outline-color: #f08804;
     }
     .header_SearchIcon {
       padding: 8px;
@@ -90,7 +90,7 @@
       flex-direction: column;
       justify-content: center;
       position: relative;
-      top: 5px;
+      top: 2px;
       .link {
         text-decoration: none;
         display: flex;

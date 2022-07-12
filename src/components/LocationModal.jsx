@@ -5,7 +5,7 @@ import styles from "../styles/LocationModal.module.scss";
 import { MdReportGmailerrorred } from "react-icons/md";
 import { Link } from "react-router-dom";
 
-const LocationModal = () => {
+const LocationModal = ({ onPINSelect }) => {
   let subtitle;
   const [modalIsOpen, setIsOpen] = React.useState(false);
 
@@ -50,6 +50,7 @@ const LocationModal = () => {
       setErrorMessage(true);
       return;
     }
+    onPINSelect(pincode)
     setIsOpen(false);
   };
   return (

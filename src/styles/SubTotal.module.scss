@@ -6,15 +6,14 @@
   width: 300px;
   padding: 20px;
   background-color: white;
-  // border: 1px solid #ddd;
   border-radius: 3px;
-
   .subTotal_Gift {
     display: flex;
     align-items: center;
-
     input {
       margin-right: 5px;
+      position: relative;
+      top: 2px;
     }
   }
   button {
@@ -47,7 +46,6 @@
       }
       &:nth-of-type(2) {
         padding-top: 1.2rem;
-
         a {
           text-decoration: none;
           color: #0066c0;

@@ -29,6 +29,10 @@ const Header = () => {
     dispatchItemEvent("REMOVE_ALL_ITEMS")
     navigate("/");
   }
+  const [pinCode, setPinCode] = useState()
+  const onPINSelect = (pin) => {
+    setPinCode(pin)
+  }
   return (
     <div className={styles.header}>
       <Link to="/">
@@ -37,9 +41,9 @@ const Header = () => {
       <div className={styles.header_Location}>
         <LocationOnIcon className={styles.locationIcon} />
         <div className={styles.text}>
-          <span className={styles.locationLineOne}>Hello</span>
+          <span className={styles.locationLineOne}>{isLoggedIn ? "Deliver to Rushikesh" : pinCode ? "Deliver to" : "Hello"}</span>
           <span className={styles.locationLineTwo}>
-            <LocationModal />
+            {isLoggedIn ? "LATUR 413512" : pinCode ? pinCode : <LocationModal onPINSelect={onPINSelect} />}
           </span>
         </div>
       </div>

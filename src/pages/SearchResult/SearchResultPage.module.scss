@@ -134,4 +134,16 @@
       }
     }
   }
+  .noResults {
+    width: 70%;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    p {
+      a {
+        color: #c7511f;
+        font-weight: bold;
+      }
+    }
+  }
 }

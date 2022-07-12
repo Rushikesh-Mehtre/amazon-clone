@@ -12,7 +12,13 @@
     gap: 10px;
     background: white;
     height: fit-content;
-
+    width: fit-content;
+    margin: auto;
+    &.loggedIn {
+      align-items: flex-start;
+      gap: 5px;
+      width: 70%;
+    }
     .signInBtn {
       background: #ffd342;
       width: 70%;
