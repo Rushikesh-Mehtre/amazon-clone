@@ -3,7 +3,7 @@ const AdList = [
     title: "SUPCASE iPhone 12 Mini Case Cover",
     keywords: ["mobile", "iphone", "apple", "Mobile", "Phone", "phone"],
     titleImgUrl:
-      "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/f344fd87-8fe5-4cc0-aa76-44652db6033f._CR0,0,500,501_AC_SX130_SY60_QL70_.png",
+      "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/4c453d82-622d-43d8-96c9-3942b6def244._CR0,0,400,400_AC_SX130_SY60_QL70_.png",
     mainImgUrl:
       "https://m.media-amazon.com/images/S/gladiator-image-upload-prod/3/A21TJRUUN4KGV/9fd2ee9a9f16c3bba72fcb8253ce0b3d._CR0,0,0,0_AC_SX130_SY60_QL70_.jpg",
     content: [

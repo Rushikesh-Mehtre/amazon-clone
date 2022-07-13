@@ -72,24 +72,26 @@
         .searchItem {
           display: grid;
           grid-template-columns: 1fr 5fr;
+          align-items: center;
           grid-gap: 1rem;
           border: 0.5px solid #ddd;
           border-radius: 4px;
           margin-bottom: 0.5rem;
+          padding: 1rem;
 
           .imgContainer {
             cursor: pointer;
             padding: 0.5rem;
             .img {
-              width: 250px;
-              height: 200px;
-              background: url("https://upload.wikimedia.org/wikipedia/commons/7/72/Santipur_B.Ed_College_Logo.png")
-                no-repeat scroll center center transparent;
-              background-size: cover;
+              display: block;
+              max-width: 210px;
+              max-height: 200px;
+              width: auto;
+              height: auto;
             }
           }
           .title {
-            padding-top: 2rem;
+            // padding-top: 2rem;
             font-size: 1.2rem;
           }
           .price {
