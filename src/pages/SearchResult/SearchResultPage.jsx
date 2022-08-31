@@ -27,7 +27,6 @@ const SearchResultPage = () => {
       <Header />
       {resultItems.length > 0 ?
         <>
-
           <p className={styles.NumOfResults}>{resultItems.length} results for <span>"{params.keyword}"</span>
           </p>
           <div className={styles.searchItems}>

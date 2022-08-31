@@ -1,0 +1,108 @@
+@import "./theme.scss";
+.productCard {
+  border: 1px solid rgb(230, 219, 219);
+  border-radius: 4px;
+  font-size: 0.9rem;
+  position: relative;
+  &.laptop {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-gap: 2rem;
+    padding: 0.5rem;
+  }
+  .productImg {
+    margin-top: 1rem;
+    width: 260px;
+    height: 290px;
+    margin: 2rem auto 0 auto;
+    display: block;
+    margin-bottom: 1rem;
+    &.laptop {
+      width: 200px;
+      height: 150px;
+    }
+  }
+  .bestSellerMark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    .bestSeller {
+      color: white;
+      background-color: #e67a00;
+      padding: 0.3rem 0.5rem;
+      cursor: pointer;
+    }
+    .category {
+      color: #b52d0b;
+      display: none;
+      font-size: 1rem;
+    }
+    &:hover {
+      .category {
+        display: block;
+      }
+    }
+  }
+  .content {
+    padding: 0.5rem;
+    .title {
+      font-size: 1.1rem;
+      margin-bottom: 0.3rem;
+    }
+    .icon {
+      color: $ratingIconColor;
+    }
+    .reviews {
+      display: flex;
+      align-items: center;
+      color: $reviewsCountColor;
+    }
+    .limitedTimeDeal {
+      color: white;
+      background-color: #b12704;
+      padding: 0.3rem 0.5rem;
+      font-size: 0.8rem;
+      width: fit-content;
+      margin-bottom: 0.2rem;
+    }
+    .price {
+      .rupeeSign {
+        position: relative;
+        top: -8px;
+      }
+      .currentPrice {
+        font-size: 1.5rem;
+        font-weight: 500;
+      }
+      .originalPrice {
+        text-decoration: line-through;
+        color: #565959;
+        margin-right: 5px;
+      }
+      .offPercent {
+        font-size: 1rem;
+      }
+    }
+    .offerText {
+      color: #565959;
+      margin-bottom: 0.3rem;
+    }
+    .primeDelivery {
+      display: flex;
+      align-items: center;
+      .checkedPrimeLogo {
+        width: 50px;
+        height: 25px;
+        margin-right: 0.1rem;
+        position: relative;
+        left: -5px;
+        top: 1px;
+      }
+    }
+    .deliveryOn {
+    }
+  }
+}

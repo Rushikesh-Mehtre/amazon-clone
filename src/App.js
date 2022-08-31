@@ -16,6 +16,12 @@ import { LoggedInContext } from "./context/LoggedInContext";
 import ProtectedRoute from "./components/ProtectedRoute";
 import PageNotFound from "./pages/PageNotFound/PageNotFound";
 import MobileContent from "./components/MobileContent";
+import MobilesPage from "./pages/MobilesPage/MobilesPage";
+import ComputersPage from "./pages/ComputersPage/ComputersPage";
+import NewReleasesPage from "./pages/NewReleasesPage/NewReleasesPage";
+import GiftsAndCardsPage from "./pages/GiftsAndCardsPage/GiftsAndCardsPage";
+import BuyAgainPage from "./pages/BuyAgainPage/BuyAgainPage";
+import HealthAndPersonalCarePage from "./pages/HealthAndPersonalCarePage/HealthAndPersonalCarePage";
 
 function App() {
   const [items, setItems] = useState([]);
@@ -89,6 +95,15 @@ function App() {
               <Route path="/search/:keyword" element={<SearchResultPage />} />
               <Route path="/itemdetials" element={<ItemDetailsPage />} />
               <Route path="/health&household" element={<HealthHouseHold />} />
+              <Route path="/mobiles" element={<MobilesPage />} />
+              <Route path="/computers" element={<ComputersPage />} />
+              <Route path="/newreleases" element={<NewReleasesPage />} />
+              <Route path="/giftandcards" element={<GiftsAndCardsPage />} />
+              <Route path="/buyagain" element={<BuyAgainPage />} />
+              <Route
+                path="/healthhouseholdandpersonalcare"
+                element={<HealthAndPersonalCarePage />}
+              />
               <Route
                 path="/returns&orders"
                 element={<ProtectedRoute Component={ReturnsAndOrders} />}

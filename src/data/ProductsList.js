@@ -429,3 +429,283 @@ export const filterArray = [
     ],
   },
 ];
+export const mobileItemList = [
+  {
+    id: 1,
+    imgUrl:
+      "https://m.media-amazon.com/images/I/51UhwaQXCpL._AC_UL480_QL65_.jpg",
+    title:
+      "Oneplus Bullets Z2 Bluetooth Wireless in Ear Earphones with Mic, Bombastic Bass - 12.4 Mm Drivers, 10 Mins Charge - 20 Hrs Music, 30 Hrs Battery Life, Launched in April 2022 (Magico Black)",
+    rating: 4,
+    reviews: 35808,
+    price: 1999,
+    originalPrice: 2299,
+    limitedTimeDeal: true,
+    offerText: "Flat INR 150 Off on ICICI Credit Cards",
+    bestSeller: true,
+    category: "Earphones",
+  },
+  {
+    id: 2,
+    imgUrl:
+      "https://m.media-amazon.com/images/I/71AvQd3VzqL._AC_UL480_QL65_.jpg",
+    title: "OnePlus Nord CE 2 Lite 5G (Blue Tide, 6GB RAM, 128GB Storage)",
+    rating: 5,
+    reviews: 24444,
+    price: 18999,
+    originalPrice: 19999,
+    limitedTimeDeal: true,
+    offerText: "Flat INR 1000 off on SBI cards",
+    bestSeller: true,
+    category: "Smartphone",
+  },
+  {
+    id: 3,
+    imgUrl:
+      "https://m.media-amazon.com/images/I/719elVA3FvL._AC_UL480_QL65_.jpg",
+    title: "boAt Bassheads 100 in Ear Wired Earphones with Mic(Black)",
+    rating: 4,
+    reviews: 340693,
+    price: 349,
+    originalPrice: 999,
+    limitedTimeDeal: false,
+    offerText: "Flat INR 1000 off on SBI cards",
+    bestSeller: false,
+    category: "Earphones",
+  },
+  {
+    id: 4,
+    imgUrl:
+      "https://m.media-amazon.com/images/I/51HBom8xz7L._AC_UL480_QL65_.jpg",
+    title:
+      "boAt Airdopes 141 True Wireless Earbuds with 42H Playtime, Beast™ Mode(Low Latency Upto 80ms) for Gaming, ENx™ Tech, ASAP™ Charge,",
+    rating: 4,
+    reviews: 86932,
+    price: 1499,
+    originalPrice: 4490,
+    limitedTimeDeal: false,
+    offerText: "",
+    bestSeller: false,
+    category: "Earphones",
+  },
+  {
+    id: 5,
+    imgUrl:
+      "https://m.media-amazon.com/images/I/71V--WZVUIL._AC_UL480_QL65_.jpg",
+    title: "OnePlus Nord CE 2 Lite 5G (Black Dusk, 6GB RAM, 128GB Storage)",
+    rating: 4,
+    reviews: 24445,
+    price: 18999,
+    originalPrice: 19999,
+    limitedTimeDeal: true,
+    offerText: "Flat INR 1000 off on SBI cards",
+    bestSeller: false,
+    category: "Smartphone",
+  },
+  {
+    id: 6,
+    imgUrl:
+      "https://m.media-amazon.com/images/I/510+wjzq-vL._AC_UL480_QL65_.jpg",
+    title:
+      "boAt Airdopes 121v2 True Wireless Earbuds with Upto 14 Hours Playback, 8MM Drivers, Battery Indicators, Lightweight Earbuds & Multifunction",
+    rating: 4,
+    reviews: 148928,
+    price: 1299,
+    originalPrice: 2990,
+    limitedTimeDeal: false,
+    offerText: "Get up to 5% back + rewards worth ₹2,200",
+    bestSeller: true,
+    category: "Earphones",
+  },
+  {
+    id: 7,
+    imgUrl:
+      "https://m.media-amazon.com/images/I/810KHyQ4WcL._AC_UL480_QL65_.jpg",
+    title:
+      "Redmi 9A Sport (Coral Green, 2GB RAM, 32GB Storage) | 2GHz Octa-core Helio G25 Processor | 5000 mAh Battery",
+    rating: 4,
+    reviews: 186435,
+    price: 6999,
+    originalPrice: 8499,
+    limitedTimeDeal: false,
+    offerText: "",
+    bestSeller: false,
+    category: "SmartPhone",
+  },
+  {
+    id: 8,
+    imgUrl:
+      "https://m.media-amazon.com/images/I/61+Q6Rh3OQL._AC_UL480_QL65_.jpg",
+    title: "OnePlus Nord CE 2 5G (Bahamas Blue, 8GB RAM, 128GB Storage)",
+    rating: 4,
+    reviews: 43949,
+    price: 24999,
+    originalPrice: 31999,
+    limitedTimeDeal: false,
+    offerText: "",
+    bestSeller: false,
+    category: "Electronics",
+  },
+  {
+    id: 9,
+    imgUrl:
+      "https://m.media-amazon.com/images/I/51RP1QMh-mL._AC_UL480_QL65_.jpg",
+    title:
+      "OnePlus Bullets Z2 Bluetooth Wireless in Ear Earphones with Mic, Bombastic Bass - 12.4 mm Drivers, 10 Mins Charge - 20 Hrs Music, 30 Hrs Battery Life, IP55",
+    rating: 4,
+    reviews: 35822,
+    price: 1999,
+    originalPrice: 2299,
+    limitedTimeDeal: false,
+    offerText: "Flat INR 150 Off on ICICI Credit Cards",
+    bestSeller: false,
+    category: "Electronics",
+  },
+];
+export const mobileImgUrl1 =
+  "https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wireless/AdvantagePrime/BAU/25thJuly/D46321486_IN_WLME_Advantage_for_prime_PC_ingress-banner_1500x300.jpg";
+export const mobileImgUrl2 =
+  "https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wireless/akull/Rewards/EBB/D47911944_INWLD_Rewards-Festival_Catpage-banners_PC_1500x300.jpg";
+export const computerItemList = [
+  {
+    id: 1,
+    imgUrl:
+      "https://m.media-amazon.com/images/I/81rtAL-vmwL._AC_UY327_FMwebp_QL65_.jpg",
+    title:
+      "HP 14s, 11th Gen Intel Core i3-1115G4, 8GB RAM/256GB SSD 14-inch(35.6 cm) FHD, Micro-Edge, Anti-Glare Display/Alexa Built-in/Win 11/Intel UHD Graphics/Dual",
+    rating: 4,
+    reviews: 790,
+    price: 38990,
+    originalPrice: 47206,
+    limitedTimeDeal: true,
+    offerText: "Save extra with No Cost EMISave extra with No Cost EMI",
+    bestSeller: true,
+    category: "Laptops",
+  },
+  {
+    id: 2,
+    imgUrl:
+      "https://m.media-amazon.com/images/I/81UA93mZNnL._AC_UY327_FMwebp_QL65_.jpg",
+    title:
+      "HP Pavilion x360,12th Gen Intel Core i5-1235U 8GB RAM/512GB SSD 14-inch(35.6 cm) FHD,multitouch-enabled,Micro-Edge Display/Intel Iris Xe Graphics/Backlit KB/B&O/Win",
+    rating: 5,
+    reviews: 19,
+    price: 70990,
+    originalPrice: 80126,
+    limitedTimeDeal: true,
+    offerText: "Save extra with No Cost EMI",
+    bestSeller: true,
+    category: "Laptops",
+  },
+  {
+    id: 3,
+    imgUrl:
+      "https://m.media-amazon.com/images/I/81jRzao2NuL._AC_UY327_FMwebp_QL65_.jpg",
+    title:
+      "HP NB 255 G8 Laptop 15.6 inch (39.6 cm) AMD Ryzen 3-3250U/8GB DDR4 Ram/1TB HDD/HD/Windows 11/AMD Radeon Vega 8 Graphics/Dark Ash Silver/1.74Kg) 64Q84PA",
+    rating: 4,
+    reviews: 76,
+    price: 30190,
+    originalPrice: 39498,
+    limitedTimeDeal: false,
+    offerText:
+      "Get up to 5% back + rewards worth ₹2,200Get up to 5% back + rewards worth...",
+    bestSeller: false,
+    category: "Laptops",
+  },
+  {
+    id: 4,
+    imgUrl:
+      "https://m.media-amazon.com/images/I/81PbxeJomjL._AC_UY327_FMwebp_QL65_.jpg",
+    title:
+      "HP 15s, 11th Gen Intel Core i3, 8GB RAM/512GB SSD 15.6-inch(39.6 cm) FHD, Micro-Edge, Anti-Glare Display/Alexa Built-in/Win 11/Intel UHD Graphics/Dual Speakers/ MS",
+    rating: 4,
+    reviews: 172,
+    price: 42999,
+    originalPrice: 51812,
+    limitedTimeDeal: false,
+    offerText: "Save extra with No Cost EMI",
+    bestSeller: false,
+    category: "Laptops",
+  },
+  {
+    id: 5,
+    imgUrl:
+      "https://m.media-amazon.com/images/I/61km1VkaCsL._AC_UY327_FMwebp_QL65_.jpg",
+    title:
+      "Lenovo IdeaPad Slim 1 Intel Celeron N4020 11.6'' (29.46cm) HD Thin & Light Laptop (4GB/256GB SSD/Windows 11/Office 2021/3months Game Pass/Platinum Grey/1.2Kg),",
+    rating: 4,
+    reviews: 625,
+    price: 34890,
+    originalPrice: 19999,
+    limitedTimeDeal: true,
+    offerText:
+      "Get up to 5% back + rewards worth ₹2,200Get up to 5% back + rewards worth...",
+    bestSeller: false,
+    category: "Laptops",
+  },
+  {
+    id: 6,
+    imgUrl:
+      "https://m.media-amazon.com/images/I/510+wjzq-vL._AC_UL480_QL65_.jpg",
+    title:
+      "ASUS VivoBook 15 (2021), 15.6-inch (39.62 cm) HD, Dual Core Intel Celeron N4020, Thin and Light Laptop (4GB RAM/256GB SSD/Integrated Graphics/Windows 11 Home/Transparent Silver/1.8 Kg), X515MA-BR011W",
+    rating: 4,
+    reviews: 1656,
+    price: 25990,
+    originalPrice: 33990,
+    limitedTimeDeal: false,
+    offerText: "Save extra with No Cost EMISave extra with No Cost EMI",
+    bestSeller: true,
+    category: "Laptops",
+  },
+  {
+    id: 7,
+    imgUrl:
+      "https://m.media-amazon.com/images/I/61eB8ZKNuwL._AC_UL480_FMwebp_QL65_.jpg",
+    title:
+      "Acer Nitro 5 Amd Ryzen 7 5800H/15.6 Inches Fhd Ips Display Gaming Laptop (16 Gb/256 Gb Ssd/1Tb Hdd/Windows 10 Home/6 Gb Graphics/Nvidia Geforce Rtx 3060/144 Hz,Shale Black, 2.4 Kg)Xbox Gamepass For Pc",
+    rating: 4,
+    reviews: 49,
+    price: 74990,
+    originalPrice: 81990,
+    limitedTimeDeal: false,
+    offerText: "",
+    bestSeller: false,
+    category: "Laptops",
+  },
+  {
+    id: 8,
+    imgUrl:
+      "https://m.media-amazon.com/images/I/9128rLQ0+DL._AC_UY327_FMwebp_QL65_.jpg",
+    title:
+      "HP 14s, 5th Gen AMD Ryzen 3- 8GB RAM/512GB SSD 14 inches(35cm) Laptop, FHD IPS Micro-Edge Display/ Backlit Keyboard/Alexa/Windows 11/Fast Charge/Radeon",
+    rating: 4,
+    reviews: 376,
+    price: 38990,
+    originalPrice: 50499,
+    limitedTimeDeal: false,
+    offerText: "",
+    bestSeller: false,
+    category: "Laptops",
+  },
+  {
+    id: 9,
+    imgUrl:
+      "https://m.media-amazon.com/images/I/81RHHnGydgL._AC_UY327_FMwebp_QL65_.jpg",
+    title:
+      "Mi Notebook Ultra 3.2K Resolution Display Intel Core I5-11300H 11Th Gen 15.6 Inches Thin Light Laptop(16Gb/512Gb Ssd/Iris Xe Graphics/Windows 11 Home/Ms Office",
+    rating: 4,
+    reviews: 1603,
+    price: 59990,
+    originalPrice: 76999,
+    limitedTimeDeal: false,
+    offerText: "Save extra with No Cost EMI",
+    bestSeller: false,
+    category: "Laptops",
+  },
+];
+export const laptopImgUrl1 =
+  "https://m.media-amazon.com/images/G/31/img20/Laptops/MI_Laptops/17_06_2020/Horizon_A3_thumbnail_V2.jpg";
+export const laptopImgUrl2 =
+  "https://helpinglyrics.com/wp-content/uploads/2020/09/2.-Xiaomi-Mi-Notebook-14.jpg";

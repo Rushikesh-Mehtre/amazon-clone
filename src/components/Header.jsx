@@ -33,6 +33,7 @@ const Header = () => {
   const onPINSelect = (pin) => {
     setPinCode(pin)
   }
+  const searchCategoryList = ["All Categories", "Alexa Skills", "Amazon Devices", "Amazon Fashion", "Amazon Fresh", "Amazon Pharmacy", "Appliances", "Apps & Games", "Baby", "Beauty", "Books", "Car & Motorbike", "Clothing & Accessories", "Collectibles", "Computers & Accessories", "Deals", "Electronics", "Furniture", "Garden & Outdoors", "Gift Cards", "Grocery & Gourmet Foods", "Health & Personal Care", "Home & Kitchen", "Industrial & Scientific", "Jewellery", "Kindle Store", "Luggage & Bags", "Luxury Beauty", "Movies & TV Shows", "Music"]
   return (
     <div className={styles.header}>
       <Link to="/">
@@ -49,13 +50,7 @@ const Header = () => {
       </div>
       <div className={styles.header_Search}>
         <select name="" id="" className={styles.selectionOption}>
-          <option selected value="">
-            All
-          </option>
-          <option value="">Alexa skills</option>
-          <option value="">Amazon devices</option>
-          <option value="">Appliances</option>
-          <option value="">Apps and games</option>
+          {searchCategoryList.map((item) => <option>{item}</option>)}
         </select>
         <input
           type="text"

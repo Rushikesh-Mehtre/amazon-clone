@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Home from "../../components/Home";
@@ -7,11 +7,19 @@ import SubHeadBar from "../../components/SubHeadBar";
 import styles from "./HomePage.module.scss";
 import ProductsSlider from "../../components/ProductsSlider";
 import SignInRecommendation from "../../components/SignInRecommendation";
-import { productsList1, productsList2, productsList3, productsList4 } from "../../data/ProductsList"
+import {
+  productsList1,
+  productsList2,
+  productsList3,
+  productsList4,
+} from "../../data/ProductsList";
 import ProductsOnHome from "../../components/ProductsOnHome";
 import { LoggedInContext } from "../../context/LoggedInContext";
 const HomePage = () => {
-  const { isLoggedIn } = useContext(LoggedInContext)
+  const { isLoggedIn } = useContext(LoggedInContext);
+  useEffect(() => {
+    window.scroll(0, 0);
+  }, []);
   return (
     <div className={styles.homePage}>
       <Header />
