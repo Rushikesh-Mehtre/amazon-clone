@@ -12,7 +12,7 @@ const GiftsAndCardsPage = () => {
       <p style={{ textAlign: "center", paddingTop: "5rem" }}>
         {" "}
         <BiError style={{ position: "relative", top: "2px" }} /> Gifts and cards
-        page is under construction....
+        page is under construction (Work in progress)....
       </p>
     </div>
   );
