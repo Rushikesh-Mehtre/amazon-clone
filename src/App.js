@@ -105,7 +105,11 @@ function App() {
               <Route path="/computers" element={<ComputersPage />} />
               <Route path="/newreleases" element={<NewReleasesPage />} />
               <Route path="/giftandcards" element={<GiftsAndCardsPage />} />
-              <Route path="/buyagain" element={<BuyAgainPage />}>
+
+              <Route
+                path="/buyagain"
+                element={<ProtectedRoute Component={BuyAgainPage} />}
+              >
                 <Route index element={<Orders />}></Route>
                 <Route path="orders" element={<Orders />}></Route>
                 <Route path="buyagain" element={<BuyAgain />}></Route>

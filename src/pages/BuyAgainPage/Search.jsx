@@ -11,10 +11,15 @@ const Search = () => {
   );
   return (
     <div className={styles.searchResults}>
-      <p className={styles.searchHead}>
-        {" "}
-        {resultItems.length} orders matching <strong>"{params.keyword}"</strong>
-      </p>
+      {resultItems.length > 0 ? (
+        <p className={styles.searchHead}>
+          {" "}
+          {resultItems.length} orders matching{" "}
+          <strong>"{params.keyword}"</strong>
+        </p>
+      ) : (
+        <p className={styles.searchHead}>No results found</p>
+      )}
       <div className={styles.orders}>
         {resultItems.map((item) => (
           <OrderCard
