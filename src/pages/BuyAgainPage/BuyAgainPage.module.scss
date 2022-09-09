@@ -1,0 +1,73 @@
+@import "../../styles/theme.scss";
+.buyAgainPage {
+  .head {
+    width: 60%;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .yourOrders {
+      font-size: 1.5rem;
+    }
+    .search {
+      display: flex;
+      position: relative;
+      input {
+        padding-left: 2rem;
+        margin-right: 1rem;
+        width: 300px;
+        outline: none;
+        border-radius: 4px;
+        border: 1px solid #d3d3d3;
+      }
+      button {
+        border-radius: 16px;
+        border: none;
+        background-color: rgb(32, 29, 29);
+        color: white;
+        padding: 0.5rem 1rem;
+        cursor: pointer;
+      }
+      .icon {
+        font-size: 18px;
+        position: absolute;
+        top: 7px;
+        left: 10px;
+      }
+    }
+  }
+  .orderTypeLinks {
+    border-bottom: 1px solid #d3d3d3;
+    width: 60%;
+    margin: 2rem auto;
+    display: flex;
+    gap: 1rem;
+    a {
+      color: $linkColor;
+      font-size: 0.9rem;
+      padding-bottom: 0.75rem;
+      &.activeLink {
+        font-weight: bold;
+        color: black;
+        border-bottom: 2px solid $ratingIconColor;
+      }
+    }
+  }
+  .orderContent {
+    .orders {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+    }
+    .searchResults {
+      width: 70%;
+      margin: auto;
+      .searchHead {
+        margin-bottom: 1rem;
+      }
+      .orders {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+  }
+}

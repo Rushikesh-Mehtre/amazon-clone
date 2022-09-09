@@ -22,6 +22,12 @@ import NewReleasesPage from "./pages/NewReleasesPage/NewReleasesPage";
 import GiftsAndCardsPage from "./pages/GiftsAndCardsPage/GiftsAndCardsPage";
 import BuyAgainPage from "./pages/BuyAgainPage/BuyAgainPage";
 import HealthAndPersonalCarePage from "./pages/HealthAndPersonalCarePage/HealthAndPersonalCarePage";
+import Orders from "./pages/BuyAgainPage/Orders";
+import BuyAgain from "./pages/BuyAgainPage/BuyAgain";
+import KindleOrders from "./pages/BuyAgainPage/KindleOrders";
+import NotShippedYet from "./pages/BuyAgainPage/NotShippedYet";
+import CancelledOrders from "./pages/BuyAgainPage/CancelledOrders";
+import Search from "./pages/BuyAgainPage/Search";
 
 function App() {
   const [items, setItems] = useState([]);
@@ -99,7 +105,18 @@ function App() {
               <Route path="/computers" element={<ComputersPage />} />
               <Route path="/newreleases" element={<NewReleasesPage />} />
               <Route path="/giftandcards" element={<GiftsAndCardsPage />} />
-              <Route path="/buyagain" element={<BuyAgainPage />} />
+              <Route path="/buyagain" element={<BuyAgainPage />}>
+                <Route index element={<Orders />}></Route>
+                <Route path="orders" element={<Orders />}></Route>
+                <Route path="buyagain" element={<BuyAgain />}></Route>
+                <Route path="notshippedyet" element={<NotShippedYet />}></Route>
+                <Route path="kindleorders" element={<KindleOrders />}></Route>
+                <Route
+                  path="cancelledorders"
+                  element={<CancelledOrders />}
+                ></Route>
+                <Route path="search/:keyword" element={<Search />} />
+              </Route>
               <Route
                 path="/healthhouseholdandpersonalcare"
                 element={<HealthAndPersonalCarePage />}

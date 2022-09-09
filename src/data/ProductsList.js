@@ -709,3 +709,253 @@ export const laptopImgUrl1 =
   "https://m.media-amazon.com/images/G/31/img20/Laptops/MI_Laptops/17_06_2020/Horizon_A3_thumbnail_V2.jpg";
 export const laptopImgUrl2 =
   "https://helpinglyrics.com/wp-content/uploads/2020/09/2.-Xiaomi-Mi-Notebook-14.jpg";
+export const buyAgainItemList = [
+  {
+    id: 1,
+    imgUrl: "https://m.media-amazon.com/images/I/619jdphRQHL._AC_SY240_.jpg",
+    title:
+      "Kapiva Thar Aloe Vera Juice (with Pulp) | Rejuvenates Skin and Hair | Natural Juice for Skin Care | No Added Sugar (1L)Kapiva Thar Aloe Vera Juice (with Pulp) | Rejuvenates…",
+    currentPrice: 269,
+    originalPrice: 299,
+    keyword: ["juice", "aloe vera", "aloevera", "skincare", "Kapiva"],
+  },
+  {
+    id: 2,
+    imgUrl: "https://m.media-amazon.com/images/I/81iMkZXy7iL._AC_SY240_.jpg",
+    title: "I LOVE PB MYFITNESS Chocolate Peanut Butter…",
+    currentPrice: 541,
+    originalPrice: 649,
+    keyword: ["peanutbutter", "peanut butter", "butter", "peanut", "Chocolate"],
+  },
+  {
+    id: 3,
+    imgUrl: "https://m.media-amazon.com/images/I/71NANIn2jhL._AC_SY240_.jpg",
+    title: "Pintola All Natural Peanut Butter (Crunchy) | Unswee…",
+    currentPrice: 398,
+    originalPrice: 425,
+    keyword: [
+      "peanutbutter",
+      "Pintola",
+      "peanut butter",
+      "butter",
+      "peanut",
+      "Chocolate",
+    ],
+  },
+  {
+    id: 4,
+    imgUrl: "https://m.media-amazon.com/images/I/71V--WZVUIL._AC_SY240_.jpg",
+    title:
+      "OnePlus Nord CE 2 Lite 5G (Black Dusk, 6GB RAM, 128GB Storage)OnePlus Nord CE 2 Lite 5G (Black Dusk, 6GB RAM, 12…",
+    currentPrice: 18999,
+    originalPrice: 19999,
+    keyword: ["OnePlus", "Nord", "mobile", "oneplus", "smartphone", "C2"],
+  },
+  {
+    id: 5,
+    imgUrl: "https://m.media-amazon.com/images/I/61X1b09mK0L._AC_SY240_.jpg",
+    title: "Milton Aqua 1000 Stainless Steel Water Bottle, 1 pc, 9…",
+    currentPrice: 339,
+    originalPrice: 441,
+    keyword: [
+      "Milton",
+      "milton",
+      "Bottle",
+      "Water Bottle",
+      "water bottle",
+      "milton bottle",
+    ],
+  },
+  {
+    id: 6,
+    imgUrl: "https://m.media-amazon.com/images/I/519TZuBfuwL._AC_SY240_.jpg",
+    title: "Scarters Mouse Pad, Desk Mat Extended for Work fr…",
+    currentPrice: 889,
+    originalPrice: 1995,
+    keyword: [
+      "Scarters",
+      "Mouse Pad",
+      "laptop accessories",
+      "mouse",
+      "table",
+      "office",
+    ],
+  },
+  {
+    id: 7,
+    imgUrl: "https://m.media-amazon.com/images/I/81JGpGeGVTL._AC_SY240_.jpg",
+    title: "Wipro Garnet 6W LED Table Lamp - 3 Grade Dimming…",
+    currentPrice: 1249,
+    originalPrice: 1500,
+    keyword: [
+      "Wipro",
+      "table lamp",
+      "LED table lamp",
+      "lamp",
+      "study lamp",
+      "Lamp",
+    ],
+  },
+  {
+    id: 8,
+    imgUrl: "https://m.media-amazon.com/images/I/51hC24pg9qL._AC_SY240_.jpg",
+    title:
+      "Philips BT3203/15 cordless rechargeable Beard Trimmer - 10 length settings; 45 min run time, WhitePhilips BT3203/15 cordless rechargeable Beard Trim…",
+    currentPrice: 1199,
+    originalPrice: 1495,
+    keyword: [
+      "Philips",
+      "Beard Trimmer",
+      "beard trimmer",
+      "trimmer",
+      "skin care",
+      "Trimmer",
+    ],
+  },
+  {
+    id: 9,
+    imgUrl: "https://m.media-amazon.com/images/I/61bKM6CSSFL._AC_SY240_.jpg",
+    title: "JBL C50HI, Wired in Ear Headphones with Mic, On…",
+    currentPrice: 499,
+    originalPrice: 999,
+    keyword: [
+      "JBL",
+      "Headphones",
+      "Earphones",
+      "earphones",
+      "mobile",
+      "mobile accessories",
+    ],
+  },
+  {
+    id: 10,
+    imgUrl: "https://m.media-amazon.com/images/I/51an1ev-eIL._AC_SY240_.jpg",
+    title:
+      "Biotique Neem Purifying Face Wash, 100mlBiotique Neem Purifying Face Wash, 100ml",
+    currentPrice: 86,
+    originalPrice: 120,
+    keyword: [
+      "Biotique",
+      "Face Wash",
+      "facewash",
+      "neem facewash",
+      "skin care",
+      "Facewash",
+    ],
+  },
+  {
+    id: 10,
+    imgUrl: "https://m.media-amazon.com/images/I/51aezVG-PCS._AC_SY240_.jpg",
+    title:
+      "Wild Stone Code Titanium Body Perfume for Men, 120mlWild Stone Code Titanium Body Perfume for Men, 1…",
+    currentPrice: 209,
+    originalPrice: 299,
+    keyword: [
+      "Body Perfume",
+      "Wild Stone",
+      "Wildstone",
+      "wildstone",
+      "deo",
+      "body deo",
+    ],
+  },
+  {
+    id: 11,
+    imgUrl:
+      "https://images-eu.ssl-images-amazon.com/images/I/91bYsX41DVL._AC_UL160_SR160,160_.jpg",
+    title: "Atomic Habits: The life-changing million copy bestseller",
+    currentPrice: 435,
+    originalPrice: 799,
+    keyword: ["Atomic Habits", "atomic habits", "book", "Atomic Habits book"],
+  },
+  {
+    id: 12,
+    imgUrl: "https://m.media-amazon.com/images/I/616cI2pfTOL._AC_SY240_.jpg",
+    title: "Optimum Nutrition (ON) Gold Standard 100% Whe…",
+    currentPrice: 6885,
+    originalPrice: 8099,
+    keyword: [
+      "Optimum Nutrition",
+      "ON",
+      "Whey Protein",
+      "protein",
+      "protein powder",
+    ],
+  },
+];
+export const recentlyViewedItemsList = [
+  {
+    id: 1,
+    imgUrl:
+      "https://images-eu.ssl-images-amazon.com/images/I/51hwUO-kAqL._AC_UL270_SR270,270_.jpg",
+    title: "Mamaearth Ubtan Natural Face Wash",
+    rating: 4,
+    reviews: "28,500",
+    price: 224,
+  },
+  {
+    id: 2,
+    imgUrl:
+      "https://images-eu.ssl-images-amazon.com/images/I/71fVoqRC0wL._AC_UL270_SR270,270_.jpg",
+    title: "A14 Bionic chip, the fastest chip ever in a smartphone",
+    rating: 4.5,
+    reviews: "14,197",
+    price: 59999,
+  },
+  {
+    id: 3,
+    imgUrl:
+      "https://images-eu.ssl-images-amazon.com/images/I/61Lgm86L29S._AC_UL270_SR270,270_.jpg",
+    title: "BenQ EW3270U 32-inch 4K UHD Monitor",
+    rating: 4.5,
+    reviews: "2,307",
+    price: 31990,
+  },
+  {
+    id: 4,
+    imgUrl:
+      "https://images-eu.ssl-images-amazon.com/images/I/81yhmZICzCL._AC_UL270_SR270,270_.jpg",
+    title: "Acer Nitro Ultrawide XV340CKP 34 Inch IPS QHD",
+    rating: 4.5,
+    reviews: "400",
+    price: 46999,
+  },
+  {
+    id: 5,
+    imgUrl:
+      "https://images-eu.ssl-images-amazon.com/images/I/61unmH6bowL._AC_UL270_SR270,270_.jpg",
+    title: "Whiskas Kitten Small (2-12 months) Dry Cat Food",
+    rating: 4.5,
+    reviews: "11,225",
+    price: 360,
+  },
+  {
+    id: 6,
+    imgUrl:
+      "https://m.media-amazon.com/images/I/71jG+e7roXL._AC_UY327_FMwebp_QL65_.jpg",
+    title: "2020 Apple MacBook Air Laptop: Apple M1 chip",
+    rating: 4.5,
+    reviews: "2,601",
+    price: 84490,
+  },
+  {
+    id: 7,
+    imgUrl:
+      "https://m.media-amazon.com/images/I/610w8MWCkwL._AC_UL480_QL65_.jpg",
+    title:
+      "Noise ColorFit Ultra SE Smart Watch with 1.75 HD Display, Aluminium Alloy Body",
+    rating: 4.5,
+    reviews: "25,789",
+    price: 3499,
+  },
+  {
+    id: 8,
+    imgUrl:
+      "https://m.media-amazon.com/images/I/61HXCeozUjL._AC_UY327_FMwebp_QL65_.jpg",
+    title:
+      "Jbl Tune 760Nc Active Noise Cancellation Bluetooth Wireless Over Ear Headphones with Mic",
+    rating: 4.5,
+    reviews: "22,653",
+    price: 6699,
+  },
+];
