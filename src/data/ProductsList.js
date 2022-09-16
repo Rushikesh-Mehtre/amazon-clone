@@ -959,3 +959,94 @@ export const recentlyViewedItemsList = [
     price: 6699,
   },
 ];
+export const primeCardsArr = [
+  {
+    id: 1,
+    title: "Great Indian Festival",
+    description: "Sale starts 24 hours Early for Prime Members on 22nd Sept",
+    imgUrl:
+      "https://m.media-amazon.com/images/G/31/prime/Engagement/520x520.jpg",
+  },
+  {
+    id: 2,
+    title: "Prime Delivery",
+    description:
+      "Free and convenient ways to get what you need, when you need it",
+    imgUrl:
+      "https://m.media-amazon.com/images/G/01/dex/2019/PrimeDelivery/DEX_Prime_PMP_0419_PrimeDelivery_Card_520x520._CB1555971147_.jpg",
+  },
+  {
+    id: 3,
+    title: "Your Prime Music",
+    description:
+      "Ad-free streaming of 90 million songs & over 15 million podcast episodes",
+    imgUrl:
+      "https://m.media-amazon.com/images/G/31/prime/PMP/PMP_DashCard_Music_Revised.jpg",
+  },
+  {
+    id: 4,
+    title: "5% Reward Points",
+    description: "You could have earned ₹909 more in the last 12 months",
+    imgUrl: "https://m.media-amazon.com/images/G/31/prime/PMP/cbcc-uc-pmp.jpg",
+  },
+];
+export const savingsIcon1 =
+  "https://m.media-amazon.com/images/G/31/prime/2019Retention/SavingsDashboard/delivery-savings-desktop1._CB450147663_.png";
+export const savingsIcon2 =
+  "https://m.media-amazon.com/images/G/31/prime/2019Retention/SavingsDashboard/deals-savings-desktop1._CB450147663_.png";
+export const primeEntertainmentArr = [
+  "https://images-eu.ssl-images-amazon.com/images/G/31/AmazonVideo/2021/X-site/SingleTitle/Viruman/306x306-Landing-page.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/G/31/AmazonVideo/2021/X-site/SingleTitle/SitaRamam/306x306-Landing-page.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/G/31/AmazonVideo/2021/X-site/SingleTitle/Shamshera/306x306-Landing-page.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/G/31/AmazonVideo/2021/X-site/SingleTitle/HBO-Peacemaker/306x306-Landing-page.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/G/31/AmazonVideo/2021/X-site/SingleTitle/Thankyou/306x306-Landing-page.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/G/31/AmazonVideo/2021/X-site/SingleTitle/CrashCourse/306x306-Landing-page.jpg",
+];
+export const primeMusicArr = [
+  "https://images-eu.ssl-images-amazon.com/images/G/31/digital/music/merch/India/2022/June/Desi_Vibes_1x1_SEL_Week4.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/G/31/digital/music/merch/India/2022/June/FullyTolly_1x1_DSP2.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/G/31/digital/music/merch/India/2022/June/Fresh_Indie_1x1_Viveick_Rajagopalan.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/G/31/digital/music/merch/India/2022/PD22/Ultimate-Love-Songs-Hindi_1x1-Gehraiyaan.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/G/31/digital/music/merch/India/2022/Mar/100Best2010sClubHits_1x1-AlanWalker.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/G/31/digital/music/merch/India/2022/Mar/Alia_Bhatt_MMT_1X1_new.jpg",
+];
+export const primeReadingArr = [
+  "https://images-eu.ssl-images-amazon.com/images/I/41ZeKSZvlpL._AC_SX184_.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/I/51cyWo7s-mS._AC_SX184_.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/I/41SfgtP0qGL._AC_SX184_.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/I/41+7tuac-KL._AC_SX184_.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/I/41rBaur2RxL._AC_SX184_.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/I/41xM13E3JwL._AC_SX184_.jpg",
+];
+export const primeExploreArr = [
+  {
+    id: 1,
+    imgUrl:
+      "https://images-eu.ssl-images-amazon.com/images/G/31/prime/PMP/PMP_widget_ExplorePrime_video.jpg",
+    title: "VIDEO",
+  },
+  {
+    id: 2,
+    imgUrl:
+      "https://images-eu.ssl-images-amazon.com/images/G/31/prime/PMP/PMP_widget_ExplorePrime_music.jpg",
+    title: "MUSIC",
+  },
+  {
+    id: 3,
+    imgUrl:
+      "https://images-eu.ssl-images-amazon.com/images/G/31/prime/PMP/PMP_widget_ExplorePrime_Reading.jpg",
+    title: "READING",
+  },
+  {
+    id: 4,
+    imgUrl:
+      "https://images-eu.ssl-images-amazon.com/images/G/31/prime/PMP/ExplorePrime_CBCC_440x300.jpg",
+    title: "CREDIT CARD",
+  },
+  {
+    id: 5,
+    imgUrl:
+      "https://images-eu.ssl-images-amazon.com/images/G/31/prime/PMP/PMP_widget_ExplorePrime_shipping.jpg",
+    title: "DELIVERY",
+  },
+];

@@ -18,9 +18,6 @@ const SubHeadBar = () => {
         <Link to="/newreleases">New Releases</Link>
         <Link to="/giftandcards">Gift Cards</Link>
         <Link to="/buyagain">Buy Again</Link>
-        <Link to="/healthhouseholdandpersonalcare">
-          Health,Household & Personal care
-        </Link>
       </div>
       <div className={styles.right}>
         <Link to="/signin">
