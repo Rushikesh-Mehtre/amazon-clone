@@ -10,7 +10,6 @@ import { CartItemsContext } from "./context/CartItemsContext";
 import { useState } from "react";
 import CheckOutDetailsPage from "./pages/CheckOutDetailsPage/CheckOutDetailsPage";
 import ItemDetailsPage from "./pages/ItemDetailsPage/ItemDetailsPage";
-import ReturnsAndOrders from "./pages/ReturnsAndOrders/ReturnsAndOrders";
 import MyPrimePage from "./pages/MyPrimePage/MyPrimePage";
 import { LoggedInContext } from "./context/LoggedInContext";
 import ProtectedRoute from "./components/ProtectedRoute";
