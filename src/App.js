@@ -121,14 +121,30 @@ function App() {
                 ></Route>
                 <Route path="search/:keyword" element={<Search />} />
               </Route>
+
+              <Route
+                path="//returns&orders"
+                element={<ProtectedRoute Component={BuyAgainPage} />}
+              >
+                <Route index element={<Orders />}></Route>
+                <Route path="orders" element={<Orders />}></Route>
+                <Route path="buyagain" element={<BuyAgain />}></Route>
+                <Route path="notshippedyet" element={<NotShippedYet />}></Route>
+                <Route path="kindleorders" element={<KindleOrders />}></Route>
+                <Route
+                  path="cancelledorders"
+                  element={<CancelledOrders />}
+                ></Route>
+                <Route path="search/:keyword" element={<Search />} />
+              </Route>
               <Route
                 path="/healthhouseholdandpersonalcare"
                 element={<HealthAndPersonalCarePage />}
               />
-              <Route
+              {/* <Route
                 path="/returns&orders"
                 element={<ProtectedRoute Component={ReturnsAndOrders} />}
-              />
+              /> */}
               <Route
                 path="/prime"
                 element={<ProtectedRoute Component={MyPrimePage} />}
