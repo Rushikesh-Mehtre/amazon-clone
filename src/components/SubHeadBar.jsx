@@ -15,9 +15,9 @@ const SubHeadBar = () => {
         </Link>
         <Link to="/mobiles">Mobiles</Link>
         <Link to="/computers">Computers</Link>
-        <Link to="/newreleases">New Releases</Link>
         <Link to="/giftandcards">Gift Cards</Link>
         <Link to="/buyagain">Buy Again</Link>
+        <Link to="/prime">Prime</Link>
       </div>
       <div className={styles.right}>
         <Link to="/signin">

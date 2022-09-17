@@ -11,7 +11,7 @@ const BuyAgainPage = () => {
   const [input, setInput] = useState();
   const searchHandler = () => {
     if (!input) {
-      alert("Please enter search input");
+      return;
     } else {
       navigate(`/buyagain/search/${input}`);
     }
