@@ -1050,3 +1050,210 @@ export const primeExploreArr = [
     title: "DELIVERY",
   },
 ];
+export const giftCardsImgArr1 = [
+  "https://images-eu.ssl-images-amazon.com/images/G/31/NAB/Card_egc_Jup.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/G/31/NAB/Card_Physical_Jup.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/G/31/NAB/Card_Brand-v_Jup.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/G/31/NAB/Card_Corporate_Jup.jpg",
+];
+export const giftCardsImgArr2 = [
+  "https://images-eu.ssl-images-amazon.com/images/G/31/img19/AmazonPay/Ghulak/logoDesktop.png",
+  "https://images-eu.ssl-images-amazon.com/images/G/31/NAB/Store_pc_Header_RGC_Jup.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/G/31/NAB/4-Slide_Shop-by-occasion_Jup.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/G/31/NAB/4-Slide_Shop-by-recipient_Jup.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/G/31/NAB/4-Slide_Gift-Cards-help-page_Jup.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/G/31/NAB/4-Slide_Be-aware_Jup.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/G/31/NAB/4-tile_Gift-Card_Jup.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/G/31/NAB/4-tile_Brand-vouchers_Jup.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/G/31/NAB/4-tile_Kalyan_Jup.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/G/31/NAB/4-tile_Lifestiyle_Jup.jpg",
+];
+export const giftCardsImgArr3 = [
+  "https://images-eu.ssl-images-amazon.com/images/G/31/NAB/Subheader_PC_Wedding.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/I/51Y-cUDmwWL.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/I/51ltKZn8HYL.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/I/414cDouBcAL.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/I/51+YpimjaEL.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/I/51dlMJm+cXL.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/I/41bazBui42L.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/G/31/NAB/Subheader_PC_Birthday.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/I/515b3m9W5sL.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/I/41IMpcpptfL.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/I/51dFSCohCkL.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/I/41Dz-aGiNDL.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/I/41i5JxioSQL.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/I/41gPvyOkhnL.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/G/31/NAB/Subheader_PC_Colleague.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/I/41YMyOfzAkL.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/I/4157mnyJiKL.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/I/51SrtZqLG4L.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/I/51ODbBoLDjL.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/I/416V-a6G3eL.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/I/41uXQ90zbWL.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/G/31/NAB/Banner_Corporate-bulk.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/G/31/NAB/Subheader_PC_Say-it-with-Gift-Cards.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/I/41cDDkQYdLL.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/I/51f-GGcv5yL.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/I/41YVIb0ZbvL.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/I/41deWoUZvLL.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/I/51r1fAsGlqL.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/I/41Vk+6n9QDL.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/G/31/NAB/Subheader_PC_Anniversary.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/I/41FaaK4CWwL.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/I/51hySNi9osL.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/I/41GHsSLP4ZL.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/I/41WAFjBr18L.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/I/41F1AwUztcL.jpg",
+  "https://images-eu.ssl-images-amazon.com/images/I/410CfHGFVNL.jpg",
+];
+export const giftCardsArr = [
+  {
+    id: 2,
+    imgUrl:
+      "https://m.media-amazon.com/images/I/41QNL8kCa0L._AC_UL480_QL65_.jpg",
+    title: "Amazon Pay eGift Card",
+    ratings: "156,237",
+    bestSeller: true,
+  },
+  {
+    id: 3,
+    imgUrl:
+      "https://m.media-amazon.com/images/I/41MVyyuN0cL._AC_UL480_QL65_.jpg",
+    title: "Amazon Pay eGift Card",
+    ratings: "156,237",
+    bestSeller: false,
+  },
+  {
+    id: 4,
+    imgUrl:
+      "https://m.media-amazon.com/images/I/515b3m9W5sL._AC_UL480_QL65_.jpg",
+    title: "Amazon Pay eGift Card",
+    ratings: "156,237",
+    bestSeller: false,
+  },
+  {
+    id: 5,
+    imgUrl:
+      "https://m.media-amazon.com/images/I/51QSfryQXEL._AC_UL480_QL65_.jpg",
+    title: "Amazon Pay eGift Card",
+    ratings: "156,237",
+    bestSeller: true,
+  },
+  {
+    id: 6,
+    imgUrl:
+      "https://m.media-amazon.com/images/I/51mOK1bqRAL._AC_UL480_QL65_.jpg",
+    title: "Amazon Pay eGift Card",
+    ratings: "156,237",
+    bestSeller: false,
+  },
+  {
+    id: 7,
+    imgUrl:
+      "https://m.media-amazon.com/images/I/51mOK1bqRAL._AC_UL480_QL65_.jpg",
+    title: "Amazon Pay eGift Card",
+    ratings: "156,237",
+    bestSeller: false,
+  },
+  {
+    id: 8,
+    imgUrl:
+      "https://m.media-amazon.com/images/I/41FAqBcgkvL._AC_UL480_QL65_.jpg",
+    title: "Swiggy E-Gift Card - Redeemable On Swiggy App",
+    ratings: "63",
+    bestSeller: false,
+  },
+  {
+    id: 9,
+    imgUrl:
+      "https://m.media-amazon.com/images/I/312gE8OFcrL._AC_UL480_QL65_.jpg",
+    title: "Google Play Gift Code - Digital Voucher",
+    ratings: "24,914",
+    bestSeller: false,
+  },
+  {
+    id: 10,
+    imgUrl:
+      "https://m.media-amazon.com/images/I/41YMyOfzAkL._AC_UL480_QL65_.jpg",
+    title: "Amazon Pay eGift Card",
+    ratings: "156,237",
+    bestSeller: false,
+  },
+];
+export const giftFilterArr = [
+  {
+    id: 1,
+    title: "Occasion",
+    values: [
+      "Anniversary",
+      "Birthday",
+      "Father's Day",
+      "Friendship",
+      "Just Because",
+      "Mother's Day",
+      "Women's Day",
+    ],
+  },
+  {
+    id: 2,
+    title: "Recipient",
+    values: [
+      "Brother",
+      "Daughter",
+      "For Her",
+      "Friend",
+      "Sister",
+      "Son",
+      "Wife",
+    ],
+  },
+  {
+    id: 3,
+    title: "Brands",
+    values: [
+      "Lifestyle",
+      "Bosch",
+      "Pantaloons",
+      "Shoppers Stop",
+      "BATA",
+      "Titan",
+      "Starbucks",
+    ],
+  },
+  {
+    id: 4,
+    title: "Delivery Type",
+    values: ["eGift Cards", "Physical Gift Cards"],
+  },
+  {
+    id: 5,
+    title: "Language",
+    values: [
+      "English",
+      "Bengali",
+      "Gujarati",
+      "Hindi",
+      "Kannada",
+      "Malayalam",
+      "Marathi",
+      "Punjabi",
+      "Tamil",
+      "Telugu",
+    ],
+  },
+  {
+    id: 6,
+    title: "Categories",
+    values: [
+      "Amazon Gift Cards",
+      "Clothing",
+      "Fashion Accessories",
+      "Jewellery",
+      "Restaurants",
+      "Shoes & Bags",
+      "Stores",
+    ],
+  },
+];
+export const addToAccountImgUrl =
+  "https://m.media-amazon.com/images/G/31/NAB/Add_to_account_yellow_200x80._CB622556752_.jpg";
