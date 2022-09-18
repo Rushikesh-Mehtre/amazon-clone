@@ -3,13 +3,13 @@ import styles from "../styles/SubHeadBar.module.scss";
 import { Link } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 
-const SubHeadBar = () => {
+const SubHeadBar = ({ showSideNavbarHandler }) => {
   const adImgPath =
     "https://images-eu.ssl-images-amazon.com/images/G/31/prime/Pay/CBCC/Refresh/swm4._CB658029568_.jpg";
   return (
     <div className={styles.subHeadBar}>
       <div className={styles.left}>
-        <Link to="/#">
+        <Link to="/#" onClick={showSideNavbarHandler}>
           <GiHamburgerMenu className={styles.hamMenu} />
           All
         </Link>

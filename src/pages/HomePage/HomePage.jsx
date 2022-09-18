@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Home from "../../components/Home";
@@ -20,10 +20,17 @@ const HomePage = () => {
   useEffect(() => {
     window.scroll(0, 0);
   }, []);
+  const [showSideNavbar, setshowSideNavbar] = useState(false);
+  const hideSideNavbar = () => {
+    setshowSideNavbar(false);
+  };
+  const showSideNavbarHandler = () => {
+    setshowSideNavbar(true);
+  };
   return (
     <div className={styles.homePage}>
-      <Header />
-      <SubHeadBar />
+      <Header showSideNavbar={showSideNavbar} hideSideNavbar={hideSideNavbar} />
+      <SubHeadBar showSideNavbarHandler={showSideNavbarHandler} />
       <ImageSlider />
       <Home />
       <ProductsSlider
