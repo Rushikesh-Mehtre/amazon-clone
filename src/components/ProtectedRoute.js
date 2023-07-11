@@ -1,17 +1,16 @@
 import React, { useEffect } from "react";
-import { useContext } from "react";
+import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import { LoggedInContext } from "../context/LoggedInContext";
 
 const ProtectedRoute = (props) => {
-  const { isLoggedIn } = useContext(LoggedInContext);
   const { Component } = props;
+  const isUserLoggedIn = useSelector((state) => state.userLogin.isUserLoggedIn);
   const navigate = useNavigate();
   useEffect(() => {
-    if (!isLoggedIn) {
+    if (!isUserLoggedIn) {
       navigate("/signin", { replace: true });
     }
-  }, [navigate, isLoggedIn]);
+  }, [navigate, isUserLoggedIn]);
   return (
     <div>
       <Component />

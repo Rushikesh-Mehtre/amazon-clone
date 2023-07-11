@@ -153,16 +153,14 @@ export const productsList4 = [
 export const productList5 = [
   {
     id: "123456",
-    title:
-      "Samsung Galaxy S22 Ultra 5G (Phantom Black, 12GB, 256GB Storage) + Samsung Galaxy Watch4",
+    title: "Samsung Galaxy S22 Ultra 5G (Phantom Black, 12GB, 256GB Storage) + Samsung Galaxy Watch4",
     rating: 3,
     price: 112999,
     imgUrl: "https://m.media-amazon.com/images/I/71PvHfU+pwL._SL1500_.jpg",
   },
   {
     id: "2245351",
-    title:
-      "HP Laserjet Pro M1136 Printer, Print, Copy, Scan, Compact Design, Reliable, and Fast Printing",
+    title: "HP Laserjet Pro M1136 Printer, Print, Copy, Scan, Compact Design, Reliable, and Fast Printing",
     rating: 4,
     price: 23499.0,
     imgUrl: "https://m.media-amazon.com/images/I/41Ojwr5P8SL.jpg",
@@ -179,8 +177,7 @@ export const productList6 = [
   },
   {
     id: "246231531",
-    title:
-      "Redmi 139 cm (55 inches) 4K Ultra HD Android Smart LED TV X55|L55M6-RA (Black) (2021 Model)",
+    title: "Redmi 139 cm (55 inches) 4K Ultra HD Android Smart LED TV X55|L55M6-RA (Black) (2021 Model)",
     rating: 5,
     price: 42499,
     imgUrl: "https://m.media-amazon.com/images/I/61zpVaJStWL._SX450_.jpg",
@@ -191,19 +188,16 @@ export const productList6 = [
       "Life's Amazing Secrets: How to Find Balance and Purpose in Your Life | Inspirational Zen book on motivation, self-development & healthy living",
     rating: 4,
     price: 150,
-    imgUrl:
-      "https://images-na.ssl-images-amazon.com/images/I/51PJyvcfPGL._SX321_BO1,204,203,200_.jpg",
+    imgUrl: "https://images-na.ssl-images-amazon.com/images/I/51PJyvcfPGL._SX321_BO1,204,203,200_.jpg",
   },
 ];
 export const productList7 = [
   {
     id: "131613613",
-    title:
-      "Ikigai: The Japanese secret to a long and happy life : by Hector Garcia",
+    title: "Ikigai: The Japanese secret to a long and happy life : by Hector Garcia",
     rating: 3,
     price: 308,
-    imgUrl:
-      "https://images-na.ssl-images-amazon.com/images/I/51T8OXMiB5L._SX356_BO1,204,203,200_.jpg",
+    imgUrl: "https://images-na.ssl-images-amazon.com/images/I/51T8OXMiB5L._SX356_BO1,204,203,200_.jpg",
   },
   {
     id: "28644854",
@@ -214,16 +208,14 @@ export const productList7 = [
   },
   {
     id: "3274327",
-    title:
-      "Apple Watch Series 3 (GPS, 42mm) - Space Grey Aluminium Case with Black Sport Band",
+    title: "Apple Watch Series 3 (GPS, 42mm) - Space Grey Aluminium Case with Black Sport Band",
     rating: 4,
     price: 23499.0,
     imgUrl: "https://m.media-amazon.com/images/I/71EoGntO5bL._SX679_.jpg",
   },
   {
     id: "4427417",
-    title:
-      "boAt Rockerz 370 Bluetooth Wireless On Ear Headphone with Mic (Buoyant Black)",
+    title: "boAt Rockerz 370 Bluetooth Wireless On Ear Headphone with Mic (Buoyant Black)",
     rating: 4,
     price: 999.0,
     imgUrl: "https://m.media-amazon.com/images/I/61kWB+uzR2L._SY450_.jpg",
@@ -432,8 +424,7 @@ export const filterArray = [
 export const mobileItemList = [
   {
     id: 1,
-    imgUrl:
-      "https://m.media-amazon.com/images/I/51UhwaQXCpL._AC_UL480_QL65_.jpg",
+    imgUrl: "https://m.media-amazon.com/images/I/51UhwaQXCpL._AC_UL480_QL65_.jpg",
     title:
       "Oneplus Bullets Z2 Bluetooth Wireless in Ear Earphones with Mic, Bombastic Bass - 12.4 Mm Drivers, 10 Mins Charge - 20 Hrs Music, 30 Hrs Battery Life, Launched in April 2022 (Magico Black)",
     rating: 4,
@@ -447,8 +438,7 @@ export const mobileItemList = [
   },
   {
     id: 2,
-    imgUrl:
-      "https://m.media-amazon.com/images/I/71AvQd3VzqL._AC_UL480_QL65_.jpg",
+    imgUrl: "https://m.media-amazon.com/images/I/71AvQd3VzqL._AC_UL480_QL65_.jpg",
     title: "OnePlus Nord CE 2 Lite 5G (Blue Tide, 6GB RAM, 128GB Storage)",
     rating: 5,
     reviews: 24444,
@@ -461,8 +451,7 @@ export const mobileItemList = [
   },
   {
     id: 3,
-    imgUrl:
-      "https://m.media-amazon.com/images/I/719elVA3FvL._AC_UL480_QL65_.jpg",
+    imgUrl: "https://m.media-amazon.com/images/I/719elVA3FvL._AC_UL480_QL65_.jpg",
     title: "boAt Bassheads 100 in Ear Wired Earphones with Mic(Black)",
     rating: 4,
     reviews: 340693,
@@ -475,8 +464,7 @@ export const mobileItemList = [
   },
   {
     id: 4,
-    imgUrl:
-      "https://m.media-amazon.com/images/I/51HBom8xz7L._AC_UL480_QL65_.jpg",
+    imgUrl: "https://m.media-amazon.com/images/I/51HBom8xz7L._AC_UL480_QL65_.jpg",
     title:
       "boAt Airdopes 141 True Wireless Earbuds with 42H Playtime, Beast™ Mode(Low Latency Upto 80ms) for Gaming, ENx™ Tech, ASAP™ Charge,",
     rating: 4,
@@ -490,8 +478,7 @@ export const mobileItemList = [
   },
   {
     id: 5,
-    imgUrl:
-      "https://m.media-amazon.com/images/I/71V--WZVUIL._AC_UL480_QL65_.jpg",
+    imgUrl: "https://m.media-amazon.com/images/I/71V--WZVUIL._AC_UL480_QL65_.jpg",
     title: "OnePlus Nord CE 2 Lite 5G (Black Dusk, 6GB RAM, 128GB Storage)",
     rating: 4,
     reviews: 24445,
@@ -504,8 +491,7 @@ export const mobileItemList = [
   },
   {
     id: 6,
-    imgUrl:
-      "https://m.media-amazon.com/images/I/510+wjzq-vL._AC_UL480_QL65_.jpg",
+    imgUrl: "https://m.media-amazon.com/images/I/510+wjzq-vL._AC_UL480_QL65_.jpg",
     title:
       "boAt Airdopes 121v2 True Wireless Earbuds with Upto 14 Hours Playback, 8MM Drivers, Battery Indicators, Lightweight Earbuds & Multifunction",
     rating: 4,
@@ -519,8 +505,7 @@ export const mobileItemList = [
   },
   {
     id: 7,
-    imgUrl:
-      "https://m.media-amazon.com/images/I/810KHyQ4WcL._AC_UL480_QL65_.jpg",
+    imgUrl: "https://m.media-amazon.com/images/I/810KHyQ4WcL._AC_UL480_QL65_.jpg",
     title:
       "Redmi 9A Sport (Coral Green, 2GB RAM, 32GB Storage) | 2GHz Octa-core Helio G25 Processor | 5000 mAh Battery",
     rating: 4,
@@ -534,8 +519,7 @@ export const mobileItemList = [
   },
   {
     id: 8,
-    imgUrl:
-      "https://m.media-amazon.com/images/I/61+Q6Rh3OQL._AC_UL480_QL65_.jpg",
+    imgUrl: "https://m.media-amazon.com/images/I/61+Q6Rh3OQL._AC_UL480_QL65_.jpg",
     title: "OnePlus Nord CE 2 5G (Bahamas Blue, 8GB RAM, 128GB Storage)",
     rating: 4,
     reviews: 43949,
@@ -548,8 +532,7 @@ export const mobileItemList = [
   },
   {
     id: 9,
-    imgUrl:
-      "https://m.media-amazon.com/images/I/51RP1QMh-mL._AC_UL480_QL65_.jpg",
+    imgUrl: "https://m.media-amazon.com/images/I/51RP1QMh-mL._AC_UL480_QL65_.jpg",
     title:
       "OnePlus Bullets Z2 Bluetooth Wireless in Ear Earphones with Mic, Bombastic Bass - 12.4 mm Drivers, 10 Mins Charge - 20 Hrs Music, 30 Hrs Battery Life, IP55",
     rating: 4,
@@ -569,8 +552,7 @@ export const mobileImgUrl2 =
 export const computerItemList = [
   {
     id: 1,
-    imgUrl:
-      "https://m.media-amazon.com/images/I/81rtAL-vmwL._AC_UY327_FMwebp_QL65_.jpg",
+    imgUrl: "https://m.media-amazon.com/images/I/81rtAL-vmwL._AC_UY327_FMwebp_QL65_.jpg",
     title:
       "HP 14s, 11th Gen Intel Core i3-1115G4, 8GB RAM/256GB SSD 14-inch(35.6 cm) FHD, Micro-Edge, Anti-Glare Display/Alexa Built-in/Win 11/Intel UHD Graphics/Dual",
     rating: 4,
@@ -584,8 +566,7 @@ export const computerItemList = [
   },
   {
     id: 2,
-    imgUrl:
-      "https://m.media-amazon.com/images/I/81UA93mZNnL._AC_UY327_FMwebp_QL65_.jpg",
+    imgUrl: "https://m.media-amazon.com/images/I/81UA93mZNnL._AC_UY327_FMwebp_QL65_.jpg",
     title:
       "HP Pavilion x360,12th Gen Intel Core i5-1235U 8GB RAM/512GB SSD 14-inch(35.6 cm) FHD,multitouch-enabled,Micro-Edge Display/Intel Iris Xe Graphics/Backlit KB/B&O/Win",
     rating: 5,
@@ -599,8 +580,7 @@ export const computerItemList = [
   },
   {
     id: 3,
-    imgUrl:
-      "https://m.media-amazon.com/images/I/81jRzao2NuL._AC_UY327_FMwebp_QL65_.jpg",
+    imgUrl: "https://m.media-amazon.com/images/I/81jRzao2NuL._AC_UY327_FMwebp_QL65_.jpg",
     title:
       "HP NB 255 G8 Laptop 15.6 inch (39.6 cm) AMD Ryzen 3-3250U/8GB DDR4 Ram/1TB HDD/HD/Windows 11/AMD Radeon Vega 8 Graphics/Dark Ash Silver/1.74Kg) 64Q84PA",
     rating: 4,
@@ -608,15 +588,13 @@ export const computerItemList = [
     price: 30190,
     originalPrice: 39498,
     limitedTimeDeal: false,
-    offerText:
-      "Get up to 5% back + rewards worth ₹2,200Get up to 5% back + rewards worth...",
+    offerText: "Get up to 5% back + rewards worth ₹2,200Get up to 5% back + rewards worth...",
     bestSeller: false,
     category: "Laptops",
   },
   {
     id: 4,
-    imgUrl:
-      "https://m.media-amazon.com/images/I/81PbxeJomjL._AC_UY327_FMwebp_QL65_.jpg",
+    imgUrl: "https://m.media-amazon.com/images/I/81PbxeJomjL._AC_UY327_FMwebp_QL65_.jpg",
     title:
       "HP 15s, 11th Gen Intel Core i3, 8GB RAM/512GB SSD 15.6-inch(39.6 cm) FHD, Micro-Edge, Anti-Glare Display/Alexa Built-in/Win 11/Intel UHD Graphics/Dual Speakers/ MS",
     rating: 4,
@@ -630,8 +608,7 @@ export const computerItemList = [
   },
   {
     id: 5,
-    imgUrl:
-      "https://m.media-amazon.com/images/I/61km1VkaCsL._AC_UY327_FMwebp_QL65_.jpg",
+    imgUrl: "https://m.media-amazon.com/images/I/61km1VkaCsL._AC_UY327_FMwebp_QL65_.jpg",
     title:
       "Lenovo IdeaPad Slim 1 Intel Celeron N4020 11.6'' (29.46cm) HD Thin & Light Laptop (4GB/256GB SSD/Windows 11/Office 2021/3months Game Pass/Platinum Grey/1.2Kg),",
     rating: 4,
@@ -639,15 +616,13 @@ export const computerItemList = [
     price: 34890,
     originalPrice: 19999,
     limitedTimeDeal: true,
-    offerText:
-      "Get up to 5% back + rewards worth ₹2,200Get up to 5% back + rewards worth...",
+    offerText: "Get up to 5% back + rewards worth ₹2,200Get up to 5% back + rewards worth...",
     bestSeller: false,
     category: "Laptops",
   },
   {
     id: 6,
-    imgUrl:
-      "https://m.media-amazon.com/images/I/510+wjzq-vL._AC_UL480_QL65_.jpg",
+    imgUrl: "https://m.media-amazon.com/images/I/510+wjzq-vL._AC_UL480_QL65_.jpg",
     title:
       "ASUS VivoBook 15 (2021), 15.6-inch (39.62 cm) HD, Dual Core Intel Celeron N4020, Thin and Light Laptop (4GB RAM/256GB SSD/Integrated Graphics/Windows 11 Home/Transparent Silver/1.8 Kg), X515MA-BR011W",
     rating: 4,
@@ -661,8 +636,7 @@ export const computerItemList = [
   },
   {
     id: 7,
-    imgUrl:
-      "https://m.media-amazon.com/images/I/61eB8ZKNuwL._AC_UL480_FMwebp_QL65_.jpg",
+    imgUrl: "https://m.media-amazon.com/images/I/61eB8ZKNuwL._AC_UL480_FMwebp_QL65_.jpg",
     title:
       "Acer Nitro 5 Amd Ryzen 7 5800H/15.6 Inches Fhd Ips Display Gaming Laptop (16 Gb/256 Gb Ssd/1Tb Hdd/Windows 10 Home/6 Gb Graphics/Nvidia Geforce Rtx 3060/144 Hz,Shale Black, 2.4 Kg)Xbox Gamepass For Pc",
     rating: 4,
@@ -676,8 +650,7 @@ export const computerItemList = [
   },
   {
     id: 8,
-    imgUrl:
-      "https://m.media-amazon.com/images/I/9128rLQ0+DL._AC_UY327_FMwebp_QL65_.jpg",
+    imgUrl: "https://m.media-amazon.com/images/I/9128rLQ0+DL._AC_UY327_FMwebp_QL65_.jpg",
     title:
       "HP 14s, 5th Gen AMD Ryzen 3- 8GB RAM/512GB SSD 14 inches(35cm) Laptop, FHD IPS Micro-Edge Display/ Backlit Keyboard/Alexa/Windows 11/Fast Charge/Radeon",
     rating: 4,
@@ -691,8 +664,7 @@ export const computerItemList = [
   },
   {
     id: 9,
-    imgUrl:
-      "https://m.media-amazon.com/images/I/81RHHnGydgL._AC_UY327_FMwebp_QL65_.jpg",
+    imgUrl: "https://m.media-amazon.com/images/I/81RHHnGydgL._AC_UY327_FMwebp_QL65_.jpg",
     title:
       "Mi Notebook Ultra 3.2K Resolution Display Intel Core I5-11300H 11Th Gen 15.6 Inches Thin Light Laptop(16Gb/512Gb Ssd/Iris Xe Graphics/Windows 11 Home/Ms Office",
     rating: 4,
@@ -707,8 +679,7 @@ export const computerItemList = [
 ];
 export const laptopImgUrl1 =
   "https://m.media-amazon.com/images/G/31/img20/Laptops/MI_Laptops/17_06_2020/Horizon_A3_thumbnail_V2.jpg";
-export const laptopImgUrl2 =
-  "https://helpinglyrics.com/wp-content/uploads/2020/09/2.-Xiaomi-Mi-Notebook-14.jpg";
+export const laptopImgUrl2 = "https://helpinglyrics.com/wp-content/uploads/2020/09/2.-Xiaomi-Mi-Notebook-14.jpg";
 export const buyAgainItemList = [
   {
     id: 1,
@@ -733,14 +704,7 @@ export const buyAgainItemList = [
     title: "Pintola All Natural Peanut Butter (Crunchy) | Unswee…",
     currentPrice: 398,
     originalPrice: 425,
-    keyword: [
-      "peanutbutter",
-      "Pintola",
-      "peanut butter",
-      "butter",
-      "peanut",
-      "Chocolate",
-    ],
+    keyword: ["peanutbutter", "Pintola", "peanut butter", "butter", "peanut", "Chocolate"],
   },
   {
     id: 4,
@@ -757,14 +721,7 @@ export const buyAgainItemList = [
     title: "Milton Aqua 1000 Stainless Steel Water Bottle, 1 pc, 9…",
     currentPrice: 339,
     originalPrice: 441,
-    keyword: [
-      "Milton",
-      "milton",
-      "Bottle",
-      "Water Bottle",
-      "water bottle",
-      "milton bottle",
-    ],
+    keyword: ["Milton", "milton", "Bottle", "Water Bottle", "water bottle", "milton bottle"],
   },
   {
     id: 6,
@@ -772,14 +729,7 @@ export const buyAgainItemList = [
     title: "Scarters Mouse Pad, Desk Mat Extended for Work fr…",
     currentPrice: 889,
     originalPrice: 1995,
-    keyword: [
-      "Scarters",
-      "Mouse Pad",
-      "laptop accessories",
-      "mouse",
-      "table",
-      "office",
-    ],
+    keyword: ["Scarters", "Mouse Pad", "laptop accessories", "mouse", "table", "office"],
   },
   {
     id: 7,
@@ -787,14 +737,7 @@ export const buyAgainItemList = [
     title: "Wipro Garnet 6W LED Table Lamp - 3 Grade Dimming…",
     currentPrice: 1249,
     originalPrice: 1500,
-    keyword: [
-      "Wipro",
-      "table lamp",
-      "LED table lamp",
-      "lamp",
-      "study lamp",
-      "Lamp",
-    ],
+    keyword: ["Wipro", "table lamp", "LED table lamp", "lamp", "study lamp", "Lamp"],
   },
   {
     id: 8,
@@ -803,14 +746,7 @@ export const buyAgainItemList = [
       "Philips BT3203/15 cordless rechargeable Beard Trimmer - 10 length settings; 45 min run time, WhitePhilips BT3203/15 cordless rechargeable Beard Trim…",
     currentPrice: 1199,
     originalPrice: 1495,
-    keyword: [
-      "Philips",
-      "Beard Trimmer",
-      "beard trimmer",
-      "trimmer",
-      "skin care",
-      "Trimmer",
-    ],
+    keyword: ["Philips", "Beard Trimmer", "beard trimmer", "trimmer", "skin care", "Trimmer"],
   },
   {
     id: 9,
@@ -818,51 +754,27 @@ export const buyAgainItemList = [
     title: "JBL C50HI, Wired in Ear Headphones with Mic, On…",
     currentPrice: 499,
     originalPrice: 999,
-    keyword: [
-      "JBL",
-      "Headphones",
-      "Earphones",
-      "earphones",
-      "mobile",
-      "mobile accessories",
-    ],
+    keyword: ["JBL", "Headphones", "Earphones", "earphones", "mobile", "mobile accessories"],
   },
   {
     id: 10,
     imgUrl: "https://m.media-amazon.com/images/I/51an1ev-eIL._AC_SY240_.jpg",
-    title:
-      "Biotique Neem Purifying Face Wash, 100mlBiotique Neem Purifying Face Wash, 100ml",
+    title: "Biotique Neem Purifying Face Wash, 100mlBiotique Neem Purifying Face Wash, 100ml",
     currentPrice: 86,
     originalPrice: 120,
-    keyword: [
-      "Biotique",
-      "Face Wash",
-      "facewash",
-      "neem facewash",
-      "skin care",
-      "Facewash",
-    ],
+    keyword: ["Biotique", "Face Wash", "facewash", "neem facewash", "skin care", "Facewash"],
   },
   {
     id: 10,
     imgUrl: "https://m.media-amazon.com/images/I/51aezVG-PCS._AC_SY240_.jpg",
-    title:
-      "Wild Stone Code Titanium Body Perfume for Men, 120mlWild Stone Code Titanium Body Perfume for Men, 1…",
+    title: "Wild Stone Code Titanium Body Perfume for Men, 120mlWild Stone Code Titanium Body Perfume for Men, 1…",
     currentPrice: 209,
     originalPrice: 299,
-    keyword: [
-      "Body Perfume",
-      "Wild Stone",
-      "Wildstone",
-      "wildstone",
-      "deo",
-      "body deo",
-    ],
+    keyword: ["Body Perfume", "Wild Stone", "Wildstone", "wildstone", "deo", "body deo"],
   },
   {
     id: 11,
-    imgUrl:
-      "https://images-eu.ssl-images-amazon.com/images/I/91bYsX41DVL._AC_UL160_SR160,160_.jpg",
+    imgUrl: "https://images-eu.ssl-images-amazon.com/images/I/91bYsX41DVL._AC_UL160_SR160,160_.jpg",
     title: "Atomic Habits: The life-changing million copy bestseller",
     currentPrice: 435,
     originalPrice: 799,
@@ -874,86 +786,70 @@ export const buyAgainItemList = [
     title: "Optimum Nutrition (ON) Gold Standard 100% Whe…",
     currentPrice: 6885,
     originalPrice: 8099,
-    keyword: [
-      "Optimum Nutrition",
-      "ON",
-      "Whey Protein",
-      "protein",
-      "protein powder",
-    ],
+    keyword: ["Optimum Nutrition", "ON", "Whey Protein", "protein", "protein powder"],
   },
 ];
 export const recentlyViewedItemsList = [
   {
-    id: 1,
-    imgUrl:
-      "https://images-eu.ssl-images-amazon.com/images/I/51hwUO-kAqL._AC_UL270_SR270,270_.jpg",
+    id: 1151251,
+    imgUrl: "https://images-eu.ssl-images-amazon.com/images/I/51hwUO-kAqL._AC_UL270_SR270,270_.jpg",
     title: "Mamaearth Ubtan Natural Face Wash",
     rating: 4,
     reviews: "28,500",
     price: 224,
   },
   {
-    id: 2,
-    imgUrl:
-      "https://images-eu.ssl-images-amazon.com/images/I/71fVoqRC0wL._AC_UL270_SR270,270_.jpg",
+    id: 215212215,
+    imgUrl: "https://images-eu.ssl-images-amazon.com/images/I/71fVoqRC0wL._AC_UL270_SR270,270_.jpg",
     title: "A14 Bionic chip, the fastest chip ever in a smartphone",
     rating: 4.5,
     reviews: "14,197",
     price: 59999,
   },
   {
-    id: 3,
-    imgUrl:
-      "https://images-eu.ssl-images-amazon.com/images/I/61Lgm86L29S._AC_UL270_SR270,270_.jpg",
+    id: 3122152,
+    imgUrl: "https://images-eu.ssl-images-amazon.com/images/I/61Lgm86L29S._AC_UL270_SR270,270_.jpg",
     title: "BenQ EW3270U 32-inch 4K UHD Monitor",
     rating: 4.5,
     reviews: "2,307",
     price: 31990,
   },
   {
-    id: 4,
-    imgUrl:
-      "https://images-eu.ssl-images-amazon.com/images/I/81yhmZICzCL._AC_UL270_SR270,270_.jpg",
+    id: 463678,
+    imgUrl: "https://images-eu.ssl-images-amazon.com/images/I/81yhmZICzCL._AC_UL270_SR270,270_.jpg",
     title: "Acer Nitro Ultrawide XV340CKP 34 Inch IPS QHD",
     rating: 4.5,
     reviews: "400",
     price: 46999,
   },
   {
-    id: 5,
-    imgUrl:
-      "https://images-eu.ssl-images-amazon.com/images/I/61unmH6bowL._AC_UL270_SR270,270_.jpg",
+    id: 558658,
+    imgUrl: "https://images-eu.ssl-images-amazon.com/images/I/61unmH6bowL._AC_UL270_SR270,270_.jpg",
     title: "Whiskas Kitten Small (2-12 months) Dry Cat Food",
     rating: 4.5,
     reviews: "11,225",
     price: 360,
   },
   {
-    id: 6,
-    imgUrl:
-      "https://m.media-amazon.com/images/I/71jG+e7roXL._AC_UY327_FMwebp_QL65_.jpg",
+    id: 668473,
+    imgUrl: "https://m.media-amazon.com/images/I/71jG+e7roXL._AC_UY327_FMwebp_QL65_.jpg",
     title: "2020 Apple MacBook Air Laptop: Apple M1 chip",
     rating: 4.5,
     reviews: "2,601",
     price: 84490,
   },
   {
-    id: 7,
-    imgUrl:
-      "https://m.media-amazon.com/images/I/610w8MWCkwL._AC_UL480_QL65_.jpg",
-    title:
-      "Noise ColorFit Ultra SE Smart Watch with 1.75 HD Display, Aluminium Alloy Body",
+    id: 7374373,
+    imgUrl: "https://m.media-amazon.com/images/I/610w8MWCkwL._AC_UL480_QL65_.jpg",
+    title: "Noise ColorFit Ultra SE Smart Watch with 1.75 HD Display, Aluminium Alloy Body",
     rating: 4.5,
     reviews: "25,789",
     price: 3499,
   },
   {
-    id: 8,
-    imgUrl:
-      "https://m.media-amazon.com/images/I/61HXCeozUjL._AC_UY327_FMwebp_QL65_.jpg",
-    title:
-      "Jbl Tune 760Nc Active Noise Cancellation Bluetooth Wireless Over Ear Headphones with Mic",
+    id: 34754578,
+    imgUrl: "https://m.media-amazon.com/images/I/61HXCeozUjL._AC_UY327_FMwebp_QL65_.jpg",
+    title: "Jbl Tune 760Nc Active Noise Cancellation Bluetooth Wireless Over Ear Headphones with Mic",
     rating: 4.5,
     reviews: "22,653",
     price: 6699,
@@ -964,24 +860,20 @@ export const primeCardsArr = [
     id: 1,
     title: "Great Indian Festival",
     description: "Sale starts 24 hours Early for Prime Members on 22nd Sept",
-    imgUrl:
-      "https://m.media-amazon.com/images/G/31/prime/Engagement/520x520.jpg",
+    imgUrl: "https://m.media-amazon.com/images/G/31/prime/Engagement/520x520.jpg",
   },
   {
     id: 2,
     title: "Prime Delivery",
-    description:
-      "Free and convenient ways to get what you need, when you need it",
+    description: "Free and convenient ways to get what you need, when you need it",
     imgUrl:
       "https://m.media-amazon.com/images/G/01/dex/2019/PrimeDelivery/DEX_Prime_PMP_0419_PrimeDelivery_Card_520x520._CB1555971147_.jpg",
   },
   {
     id: 3,
     title: "Your Prime Music",
-    description:
-      "Ad-free streaming of 90 million songs & over 15 million podcast episodes",
-    imgUrl:
-      "https://m.media-amazon.com/images/G/31/prime/PMP/PMP_DashCard_Music_Revised.jpg",
+    description: "Ad-free streaming of 90 million songs & over 15 million podcast episodes",
+    imgUrl: "https://m.media-amazon.com/images/G/31/prime/PMP/PMP_DashCard_Music_Revised.jpg",
   },
   {
     id: 4,
@@ -1021,32 +913,27 @@ export const primeReadingArr = [
 export const primeExploreArr = [
   {
     id: 1,
-    imgUrl:
-      "https://images-eu.ssl-images-amazon.com/images/G/31/prime/PMP/PMP_widget_ExplorePrime_video.jpg",
+    imgUrl: "https://images-eu.ssl-images-amazon.com/images/G/31/prime/PMP/PMP_widget_ExplorePrime_video.jpg",
     title: "VIDEO",
   },
   {
     id: 2,
-    imgUrl:
-      "https://images-eu.ssl-images-amazon.com/images/G/31/prime/PMP/PMP_widget_ExplorePrime_music.jpg",
+    imgUrl: "https://images-eu.ssl-images-amazon.com/images/G/31/prime/PMP/PMP_widget_ExplorePrime_music.jpg",
     title: "MUSIC",
   },
   {
     id: 3,
-    imgUrl:
-      "https://images-eu.ssl-images-amazon.com/images/G/31/prime/PMP/PMP_widget_ExplorePrime_Reading.jpg",
+    imgUrl: "https://images-eu.ssl-images-amazon.com/images/G/31/prime/PMP/PMP_widget_ExplorePrime_Reading.jpg",
     title: "READING",
   },
   {
     id: 4,
-    imgUrl:
-      "https://images-eu.ssl-images-amazon.com/images/G/31/prime/PMP/ExplorePrime_CBCC_440x300.jpg",
+    imgUrl: "https://images-eu.ssl-images-amazon.com/images/G/31/prime/PMP/ExplorePrime_CBCC_440x300.jpg",
     title: "CREDIT CARD",
   },
   {
     id: 5,
-    imgUrl:
-      "https://images-eu.ssl-images-amazon.com/images/G/31/prime/PMP/PMP_widget_ExplorePrime_shipping.jpg",
+    imgUrl: "https://images-eu.ssl-images-amazon.com/images/G/31/prime/PMP/PMP_widget_ExplorePrime_shipping.jpg",
     title: "DELIVERY",
   },
 ];
@@ -1109,72 +996,63 @@ export const giftCardsImgArr3 = [
 export const giftCardsArr = [
   {
     id: 2,
-    imgUrl:
-      "https://m.media-amazon.com/images/I/41QNL8kCa0L._AC_UL480_QL65_.jpg",
+    imgUrl: "https://m.media-amazon.com/images/I/41QNL8kCa0L._AC_UL480_QL65_.jpg",
     title: "Amazon Pay eGift Card",
     ratings: "156,237",
     bestSeller: true,
   },
   {
     id: 3,
-    imgUrl:
-      "https://m.media-amazon.com/images/I/41MVyyuN0cL._AC_UL480_QL65_.jpg",
+    imgUrl: "https://m.media-amazon.com/images/I/41MVyyuN0cL._AC_UL480_QL65_.jpg",
     title: "Amazon Pay eGift Card",
     ratings: "156,237",
     bestSeller: false,
   },
   {
     id: 4,
-    imgUrl:
-      "https://m.media-amazon.com/images/I/515b3m9W5sL._AC_UL480_QL65_.jpg",
+    imgUrl: "https://m.media-amazon.com/images/I/515b3m9W5sL._AC_UL480_QL65_.jpg",
     title: "Amazon Pay eGift Card",
     ratings: "156,237",
     bestSeller: false,
   },
   {
     id: 5,
-    imgUrl:
-      "https://m.media-amazon.com/images/I/51QSfryQXEL._AC_UL480_QL65_.jpg",
+    imgUrl: "https://m.media-amazon.com/images/I/51QSfryQXEL._AC_UL480_QL65_.jpg",
     title: "Amazon Pay eGift Card",
     ratings: "156,237",
     bestSeller: true,
   },
   {
     id: 6,
-    imgUrl:
-      "https://m.media-amazon.com/images/I/51mOK1bqRAL._AC_UL480_QL65_.jpg",
+    imgUrl: "https://m.media-amazon.com/images/I/51mOK1bqRAL._AC_UL480_QL65_.jpg",
     title: "Amazon Pay eGift Card",
     ratings: "156,237",
     bestSeller: false,
   },
   {
     id: 7,
-    imgUrl:
-      "https://m.media-amazon.com/images/I/51mOK1bqRAL._AC_UL480_QL65_.jpg",
+    imgUrl: "https://m.media-amazon.com/images/I/51mOK1bqRAL._AC_UL480_QL65_.jpg",
     title: "Amazon Pay eGift Card",
     ratings: "156,237",
     bestSeller: false,
   },
   {
     id: 8,
-    imgUrl:
-      "https://m.media-amazon.com/images/I/41FAqBcgkvL._AC_UL480_QL65_.jpg",
+    imgUrl: "https://m.media-amazon.com/images/I/41FAqBcgkvL._AC_UL480_QL65_.jpg",
     title: "Swiggy E-Gift Card - Redeemable On Swiggy App",
     ratings: "63",
     bestSeller: false,
   },
   {
     id: 9,
-    imgUrl:
-      "https://m.media-amazon.com/images/I/312gE8OFcrL._AC_UL480_QL65_.jpg",
+    imgUrl: "https://m.media-amazon.com/images/I/312gE8OFcrL._AC_UL480_QL65_.jpg",
     title: "Google Play Gift Code - Digital Voucher",
     ratings: "24,914",
     bestSeller: false,
   },
   {
     id: 10,
-    imgUrl:
-      "https://m.media-amazon.com/images/I/41YMyOfzAkL._AC_UL480_QL65_.jpg",
+    imgUrl: "https://m.media-amazon.com/images/I/41YMyOfzAkL._AC_UL480_QL65_.jpg",
     title: "Amazon Pay eGift Card",
     ratings: "156,237",
     bestSeller: false,
@@ -1184,41 +1062,17 @@ export const giftFilterArr = [
   {
     id: 1,
     title: "Occasion",
-    values: [
-      "Anniversary",
-      "Birthday",
-      "Father's Day",
-      "Friendship",
-      "Just Because",
-      "Mother's Day",
-      "Women's Day",
-    ],
+    values: ["Anniversary", "Birthday", "Father's Day", "Friendship", "Just Because", "Mother's Day", "Women's Day"],
   },
   {
     id: 2,
     title: "Recipient",
-    values: [
-      "Brother",
-      "Daughter",
-      "For Her",
-      "Friend",
-      "Sister",
-      "Son",
-      "Wife",
-    ],
+    values: ["Brother", "Daughter", "For Her", "Friend", "Sister", "Son", "Wife"],
   },
   {
     id: 3,
     title: "Brands",
-    values: [
-      "Lifestyle",
-      "Bosch",
-      "Pantaloons",
-      "Shoppers Stop",
-      "BATA",
-      "Titan",
-      "Starbucks",
-    ],
+    values: ["Lifestyle", "Bosch", "Pantaloons", "Shoppers Stop", "BATA", "Titan", "Starbucks"],
   },
   {
     id: 4,

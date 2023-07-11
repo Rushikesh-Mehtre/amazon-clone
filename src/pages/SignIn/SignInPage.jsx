@@ -4,14 +4,15 @@ import amazon1 from "../../assets/images/amazon1.png";
 import { AiFillCaretDown } from "react-icons/ai";
 import { Link, useNavigate } from "react-router-dom";
 import BottomLine from "../../components/BottomLine";
-import { LoggedInContext } from "../../context/LoggedInContext";
-import { useContext } from "react";
+import { useDispatch } from "react-redux";
+import { loginUser } from "../../features/Userlogin/UserLoginSlice";
+
 const SignInPage = () => {
   const navigate = useNavigate();
+  const dispatch = useDispatch();
   const signUpHandler = () => {
     navigate("/signup");
   };
-  const { dispatchLogInEvent } = useContext(LoggedInContext);
   const [signInCredentials, setSignInCredentials] = useState({
     emailOrNum: "user",
     password: "user",
@@ -22,14 +23,9 @@ const SignInPage = () => {
     if (!signInCredentials.emailOrNum || !signInCredentials.password) {
       alert("Please enter email id/number and password");
       return;
-    } else if (
-      signInCredentials.emailOrNum === "user" &&
-      signInCredentials.password === "user"
-    ) {
-      dispatchLogInEvent("LOG_IN");
-      navigate("/");
     } else {
-      alert("Invalid credentials.");
+      dispatch(loginUser({ email: signInCredentials.emailOrNum, password: signInCredentials.password }));
+      navigate("/");
     }
   };
   const credentialsChangeHandler = (e) => {
@@ -70,11 +66,7 @@ const SignInPage = () => {
                 }}
               />
             </div>
-            <button
-              type="submit"
-              className={styles.signIn}
-              onClick={(e) => signInHandler(e)}
-            >
+            <button type="submit" className={styles.signIn} onClick={(e) => signInHandler(e)}>
               Sign in
             </button>
             <div className={styles.checkBox}>

@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Home from "../../components/Home";
@@ -7,16 +7,13 @@ import SubHeadBar from "../../components/SubHeadBar";
 import styles from "./HomePage.module.scss";
 import ProductsSlider from "../../components/ProductsSlider";
 import SignInRecommendation from "../../components/SignInRecommendation";
-import {
-  productsList1,
-  productsList2,
-  productsList3,
-  productsList4,
-} from "../../data/ProductsList";
+import { productsList1, productsList2, productsList3, productsList4 } from "../../data/ProductsList";
 import ProductsOnHome from "../../components/ProductsOnHome";
-import { LoggedInContext } from "../../context/LoggedInContext";
+import { useSelector } from "react-redux";
 const HomePage = () => {
-  const { isLoggedIn } = useContext(LoggedInContext);
+  const isUserLoggedIn = useSelector((state) => state.userLogin.isUserLoggedIn);
+  const addedToCartProducts = useSelector((state) => state.addedToCartProducts.addedToCartProducts);
+  console.log("addedToCartProducts", addedToCartProducts);
   useEffect(() => {
     window.scroll(0, 0);
   }, []);
@@ -33,11 +30,7 @@ const HomePage = () => {
       <SubHeadBar showSideNavbarHandler={showSideNavbarHandler} />
       <ImageSlider />
       <Home />
-      <ProductsSlider
-        productsList={productsList1}
-        title="Today's deals"
-        link="See all deals"
-      />
+      <ProductsSlider productsList={productsList1} title="Today's deals" link="See all deals" />
       <ProductsSlider
         productsList={productsList2}
         title="Curated protective supply products | Amazon Launchpad"
@@ -54,7 +47,7 @@ const HomePage = () => {
         link="See all offers"
       />
       <ProductsOnHome />
-      {!isLoggedIn && <SignInRecommendation />}
+      {!isUserLoggedIn && <SignInRecommendation />}
       <Footer />
     </div>
   );

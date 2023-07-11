@@ -1,12 +1,13 @@
 import styles from "../styles/ProductsSlider.module.scss";
-import React, { useContext } from "react";
+import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from "react-router-dom";
 import Countdown from "react-countdown";
 import { AiFillStar } from "react-icons/ai";
-import { CartItemsContext } from "../context/CartItemsContext";
+import { useDispatch } from "react-redux";
+import { addToCartProduct } from "../features/AddedToCartProducts/AddedToCartProductsSlice";
 const ProductsSlider = ({ title, productsList, link, type }) => {
   function SampleNextArrow(props) {
     const { className, style, onClick } = props;
@@ -56,11 +57,10 @@ const ProductsSlider = ({ title, productsList, link, type }) => {
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
   };
-  const { dispatchItemEvent } = useContext(CartItemsContext);
-  const addItemHandler = (id, img, priceRange, price, title, rating, reviews) => {
-    dispatchItemEvent('ADD_ITEM', { id, img, priceRange, price, title, rating, reviews });
-
-  }
+  const dispatch = useDispatch();
+  const addItemHandler = (productToAdd) => {
+    dispatch(addToCartProduct(productToAdd));
+  };
   return (
     <div className={styles.productsSlider}>
       <div className={styles.header}>
@@ -72,18 +72,13 @@ const ProductsSlider = ({ title, productsList, link, type }) => {
           return (
             <div key={item.id} className={styles.productItem}>
               <img src={item.imgUrl} className={styles.img} alt="" />
-              {item.priceRange && (
-                <p className={styles.priceRange}>{item.priceRange} </p>
-              )}
+              {item.priceRange && <p className={styles.priceRange}>{item.priceRange} </p>}
               {item.endsIn && (
                 <p className={styles.endsIn}>
-                  Ends in :{" "}
-                  <Countdown key={item.id} date={Date.now() + item.endsIn} />
+                  Ends in : <Countdown key={item.id} date={Date.now() + item.endsIn} />
                 </p>
               )}
-              {item.title && (
-                <p className={styles.title}>{item.title.substring(0, 20)}...</p>
-              )}
+              {item.title && <p className={styles.title}>{item.title.substring(0, 20)}...</p>}
               {item.rating && item.reviews && (
                 <p className={styles.ratingAndReview}>
                   <span>
@@ -92,14 +87,14 @@ const ProductsSlider = ({ title, productsList, link, type }) => {
                     <AiFillStar className={styles.icon} />
                     <AiFillStar className={styles.icon} />
                   </span>
-                  <span className={styles.reviews}>
-                    {item.reviews && item.reviews}
-                  </span>
+                  <span className={styles.reviews}>{item.reviews && item.reviews}</span>
                 </p>
               )}
               {item.price && <p className={styles.price}>₹{item.price}</p>}
               {item.price && (
-                <button className={styles.addToCart} onClick={() => addItemHandler(item.id, item.imgUrl, item.priceRange, item.price, item.title, item.rating, item.reviews)}>Add to cart</button>
+                <button className={styles.addToCart} onClick={() => addItemHandler(item)}>
+                  Add to cart
+                </button>
               )}
             </div>
           );

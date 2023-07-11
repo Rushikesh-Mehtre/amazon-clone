@@ -1,13 +1,14 @@
 import React from "react";
-import { useContext } from "react";
-import { CartItemsContext } from "../context/CartItemsContext";
 import styles from "../styles/Product.module.scss";
-const Product = ({ id, title, price, rating, image }) => {
-  const { dispatchItemEvent } = useContext(CartItemsContext)
-  const addToBaketHandler = (id, title, price, rating, image) => {
-    dispatchItemEvent('ADD_ITEM', { id, title, price, rating, image });
-
-  }
+import { useDispatch } from "react-redux";
+import { addToCartProduct } from "../features/AddedToCartProducts/AddedToCartProductsSlice";
+const Product = (props) => {
+  const dispatch = useDispatch();
+  const { itemObj } = props;
+  const { title, price, rating, imgUrl } = itemObj;
+  const addToBaketHandler = (itemObj) => {
+    dispatch(addToCartProduct(itemObj));
+  };
   return (
     <div className={styles.product}>
       <div className={styles.productInfo}>
@@ -26,12 +27,8 @@ const Product = ({ id, title, price, rating, image }) => {
           <p></p>
         </div>
       </div>
-      <img src={image} alt="" />
-      <button
-        onClick={() => addToBaketHandler(id, title, price, rating, image)}
-      >
-        Add to cart
-      </button>
+      <img src={imgUrl} alt="product-banner" />
+      <button onClick={() => addToBaketHandler(itemObj)}>Add to cart</button>
     </div>
   );
 };
