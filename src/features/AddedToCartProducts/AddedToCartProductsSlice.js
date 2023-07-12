@@ -8,21 +8,17 @@ const AddedToCartProductsSlice = createSlice({
   initialState,
   reducers: {
     addToCartProduct: (state, action) => {
-      console.log(state.addedToCartProducts);
-      // if (state.addedToCartProduct.filter((item) => item.id === action.payload.id).length > 0) {
-      //   console.log("item already present");
-      // } else {
       let idArr = state.addedToCartProducts.map((item) => item.id);
       console.log("idArr", idArr);
       if (idArr.includes(action.payload.id)) {
         let updatedCartArr = state.addedToCartProducts.filter((item) => item.id !== action.payload.id);
-        let alreadyPresentProductObj = state.addedToCartProducts.filter((item) => item.id === action.payload.id)[0];
-        updatedCartArr.push({ ...action.payload, quantity: alreadyPresentProductObj.quantity + 1 });
+        // let alreadyPresentProductObj = state.addedToCartProducts.filter((item) => item.id === action.payload.id)[0];
+        updatedCartArr.push({ ...action.payload, quantity: action.payload.quantity });
         state.addedToCartProducts = updatedCartArr;
       } else {
-        let productObj = { ...action.payload };
-        productObj.quantity = 1;
-        state.addedToCartProducts.push(productObj);
+        // let productObj = { ...action.payload };
+        // productObj.quantity = 1;
+        state.addedToCartProducts.push(action.payload);
       }
 
       // }

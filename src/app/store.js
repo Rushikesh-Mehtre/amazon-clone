@@ -3,6 +3,7 @@ import userCreationReducer from "../features/Usercreation/UserCreationSlice";
 import userLoginReducer from "../features/Userlogin/UserLoginSlice";
 import AddedtoCartProductsReducer from "../features/AddedToCartProducts/AddedToCartProductsSlice";
 import SaveForLaterProductsReducer from "../features/SavedForLaterProducts/SavedForLaterProductsSlice";
+import SelectedProductsInCartReducer from "../features/SelectedProductsInCart/SelectedProductsInCartSlice";
 import storage from "redux-persist/lib/storage";
 import { persistReducer, persistStore } from "redux-persist";
 import thunk from "redux-thunk";
@@ -17,6 +18,7 @@ const rootReducer = combineReducers({
   userLogin: userLoginReducer,
   addedToCartProducts: AddedtoCartProductsReducer,
   savedForLaterProducts: SaveForLaterProductsReducer,
+  selectedProductsInCart: SelectedProductsInCartReducer,
 });
 const persistedReducer = persistReducer(persistConfig, rootReducer);
 

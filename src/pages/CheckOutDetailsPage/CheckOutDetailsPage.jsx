@@ -18,7 +18,7 @@ const CheckOutDetailsPage = () => {
     setPaymentMethod(value);
   };
   let subtotal = addedToCartProducts.reduce((accumulator, object) => {
-    return Number(accumulator) + Number(object.price);
+    return Number(accumulator) + Number(object.price * object.quantity);
   }, 0);
   const navigate = useNavigate();
   const dispatch = useDispatch();
@@ -114,7 +114,7 @@ const CheckOutDetailsPage = () => {
                       ₹{item.price} <img src={primeLogo} className={styles.checkedPrime} alt="" />{" "}
                     </p>
                     <select name="" id="">
-                      <option value="">Qty :1</option>
+                      <option>{item.quantity}</option>
                     </select>
                     <p>Sold by : Amazon India</p>
                   </div>

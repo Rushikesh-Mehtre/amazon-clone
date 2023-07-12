@@ -59,7 +59,9 @@ const ProductsSlider = ({ title, productsList, link, type }) => {
   };
   const dispatch = useDispatch();
   const addItemHandler = (productToAdd) => {
-    dispatch(addToCartProduct(productToAdd));
+    let itemToAddObj = { ...productToAdd };
+    itemToAddObj.quantity = 1;
+    dispatch(addToCartProduct(itemToAddObj));
   };
   return (
     <div className={styles.productsSlider}>

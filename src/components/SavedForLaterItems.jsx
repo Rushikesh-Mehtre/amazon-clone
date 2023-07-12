@@ -11,7 +11,9 @@ const SavedForLaterItems = () => {
   console.log("savedForLaterProducts", savedForLaterProducts);
   const moveToCartHandler = (itemToRemoveFromSaveToLater) => {
     dispatch(removeProductToSaveForLater(itemToRemoveFromSaveToLater));
-    dispatch(addToCartProduct(itemToRemoveFromSaveToLater));
+    let itemToAddObj = { ...itemToRemoveFromSaveToLater };
+    itemToAddObj.quantity = 1;
+    dispatch(addToCartProduct(itemToAddObj));
   };
   const deleteHandler = (itemToDelete) => {
     dispatch(removeProductToSaveForLater(itemToDelete));

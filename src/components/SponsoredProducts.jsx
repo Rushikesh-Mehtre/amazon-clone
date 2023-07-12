@@ -43,7 +43,9 @@ const SponsoredProducts = () => {
   ];
   const dispatch = useDispatch();
   const addItemHandler = (productToAdd) => {
-    dispatch(addToCartProduct(productToAdd));
+    let itemToAddObj = { ...productToAdd };
+    itemToAddObj.quantity = 1;
+    dispatch(addToCartProduct(itemToAddObj));
   };
   return (
     <div className={styles.sponsoredProducts}>

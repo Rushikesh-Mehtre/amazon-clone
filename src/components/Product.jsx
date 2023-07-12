@@ -7,7 +7,9 @@ const Product = (props) => {
   const { itemObj } = props;
   const { title, price, rating, imgUrl } = itemObj;
   const addToBaketHandler = (itemObj) => {
-    dispatch(addToCartProduct(itemObj));
+    let itemToAddObj = { ...itemObj };
+    itemToAddObj.quantity = 1;
+    dispatch(addToCartProduct(itemToAddObj));
   };
   return (
     <div className={styles.product}>

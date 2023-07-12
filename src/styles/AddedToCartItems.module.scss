@@ -100,8 +100,7 @@
           cursor: pointer;
           outline: none;
           border: 1px solid #e3e6e6;
-          box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16),
-            0 3px 3px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16), 0 3px 3px rgba(0, 0, 0, 0.23);
           &:hover {
             background-color: #cbd6d6;
           }
@@ -131,6 +130,10 @@
     .number {
       font-weight: bold;
     }
+  }
+  .noItemsSelectedLabel {
+    text-align: end;
+    padding: 0.5rem 0 1rem 0;
   }
 }
 .emptyCart {
